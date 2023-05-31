@@ -15,8 +15,15 @@ function App() {
         <a href="./index.html">
           <img src="./src/assets/images/logo.png" alt="logo" className="logo" />
         </a>
-        <button onClick={toggleMenu} className="menu-toggle">
-          Toggle Menu
+        <button
+          onClick={toggleMenu}
+          className={`menu-toggle ${isOpen ? "open" : ""}`}
+        >
+          {isOpen ? (
+            <img src="./src/assets/images/menu-close.svg" alt="menu" />
+          ) : (
+            <img src="./src/assets/images/menu-open.svg" alt="menu" />
+          )}
         </button>
         {isOpen && <Nav />}
       </header>
