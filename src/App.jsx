@@ -1,14 +1,27 @@
 import "./CSS/index.css"
 import menuData from "./menu.json"
 import Nav from "./nav"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768)
+    }
+
+    window.addEventListener("resize", handleResize)
+
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
   return (
     <>
       <header className="header">

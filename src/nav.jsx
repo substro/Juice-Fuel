@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react"
 
 const Nav = () => {
   return (
@@ -6,10 +6,12 @@ const Nav = () => {
       <nav>
         <ul>
           <li>
-            <a href="">Whatsapp</a>
+            <a href="" className="whatsapp">
+              Whatsapp
+            </a>
           </li>
           <li>
-            <a href="">Location</a>
+            <a href="">Facebook</a>
           </li>
           <li>
             <a href="">Instagram</a>
@@ -18,7 +20,7 @@ const Nav = () => {
             <a href="">TikTok</a>
           </li>
           <li>
-            <a href="">Facebook</a>
+            <a href="">Location</a>
           </li>
         </ul>
       </nav>
