@@ -1,7 +1,7 @@
 import "./CSS/index.css"
 import menuData from "./menu.json"
 import Nav from "./nav"
-import react, { useState } from "react"
+import { useState } from "react"
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -14,11 +14,11 @@ function App() {
       <header className="header">
         <a href="./index.html">
           <img src="./src/assets/images/logo.png" alt="logo" className="logo" />
-          <button onClick={toggleMenu} className="menu-toggle">
-            Toggle Menu
-          </button>
-          {isOpen && <Nav />}
         </a>
+        <button onClick={toggleMenu} className="menu-toggle">
+          Toggle Menu
+        </button>
+        {isOpen && <Nav />}
       </header>
       <main className="main"></main>
       <footer className="footer"></footer>

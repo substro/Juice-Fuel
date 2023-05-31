@@ -4,15 +4,13 @@
 
 .logo {
   width: clamp(6rem, 30vw, 20rem);
-  /* margin: 0.5rem 0 0 0.5rem; */
 }
-/* index.css */
 .primary-navigation {
   position: relative;
 }
 
 .primary-navigation nav {
-  display: none;
+  /* display: none; */
   position: absolute;
   top: 100%;
   left: 0;
