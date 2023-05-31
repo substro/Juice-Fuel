@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+}
+
+.logo {
+  width: clamp(6rem, 30vw, 20rem);
+  /* margin: 0.5rem 0 0 0.5rem; */
+}
+/* index.css */
+.primary-navigation {
+  position: relative;
+}
+
+.primary-navigation nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.primary-navigation.open nav {
+  display: block;
+}
+
+.primary-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.primary-navigation ul li {
+  margin-bottom: 10px;
+}
+
+.primary-navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.primary-navigation ul li a:hover {
+  background-color: #e6e6e6;
+}
