@@ -1,5 +1,4 @@
 import React from "react"
-import DrinksTabCopy from "./DrinksTabCopy"
 import DrinksTab from "./DrinksTab"
 
 export const MainSection = () => {
@@ -23,8 +22,6 @@ export const MainSection = () => {
           <button className="main-nav-btn">Saj</button>
         </div>
         <DrinksTab />
-
-        <DrinksTabCopy />
       </div>
     </>
   )
