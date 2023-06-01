@@ -1,4 +1,4 @@
-import Nav from './Nav';
+import { NavBar } from './NavBar';
 
 export const Header = () => {
 	return (
@@ -6,7 +6,8 @@ export const Header = () => {
 			<a href="./index.html">
 				<img src="./src/assets/images/logo.png" alt="logo" className="logo" />
 			</a>
-			<Nav />
+
+			<NavBar />
 		</header>
 	);
 };

@@ -10,7 +10,7 @@ import {
 import { useState } from "react"
 import Content from "./content.json"
 
-const Nav = () => {
+export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <>
@@ -60,4 +60,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+// export default NavBar
