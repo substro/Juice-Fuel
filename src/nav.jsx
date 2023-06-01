@@ -8,7 +8,6 @@ import {
   FaWhatsapp,
 } from "react-icons/fa"
 import { useState } from "react"
-import React from "react"
 import Content from "./content.json"
 
 const Nav = () => {

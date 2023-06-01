@@ -1,4 +1,4 @@
-import React from 'react';
+import Nav from './Nav';
 
 export const Header = () => {
 	return (
@@ -6,7 +6,7 @@ export const Header = () => {
 			<a href="./index.html">
 				<img src="./src/assets/images/logo.png" alt="logo" className="logo" />
 			</a>
-			
+			<Nav />
 		</header>
 	);
 };
