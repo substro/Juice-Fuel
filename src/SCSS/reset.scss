@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+html {
+  -webkit-tap-highlight-color: transparent;
+}
 @import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap");
 
 html,

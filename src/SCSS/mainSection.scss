@@ -48,13 +48,6 @@
       transform: translate(0.05em, 0.05em);
       box-shadow: 0.05em 0.05em;
     }
-    @media (max-width: 300px) {
-      .active {
-        background-color: #5da636;
-        transform: translate(0.05em, 0.05em);
-        box-shadow: 0.05em 0.05em;
-      }
-    }
   }
 }
 
