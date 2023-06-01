@@ -5,31 +5,36 @@ import React from "react"
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav>
-      <ul className={` primary-nav ${isOpen ? "active" : "none"}`}>
-        <li>
-          <a href="" className="whatsapp">
-            Whatsapp
-          </a>
-        </li>
-        <li>
-          <a href="">Facebook</a>
-        </li>
-        <li>
-          <a href="">Instagram</a>
-        </li>
-        <li>
-          <a href="">TikTok</a>
-        </li>
-        <li>
-          <a href="">Location</a>
-        </li>
-      </ul>
-
-      <button onClick={() => setIsOpen((prev) => !prev)} className="nav-btn">
+    <>
+      <button
+        data-visible={isOpen}
+        onClick={() => setIsOpen((prev) => !prev)}
+        className="nav-btn"
+      >
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
-    </nav>
+      <nav>
+        <ul className={` primary-nav`} data-visible={isOpen}>
+          <li>
+            <a href="" className="whatsapp">
+              Whatsapp
+            </a>
+          </li>
+          <li>
+            <a href="">Facebook</a>
+          </li>
+          <li>
+            <a href="">Instagram</a>
+          </li>
+          <li>
+            <a href="">TikTok</a>
+          </li>
+          <li>
+            <a href="">Location</a>
+          </li>
+        </ul>
+      </nav>
+    </>
   )
 }
 
