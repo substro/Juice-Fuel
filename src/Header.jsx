@@ -1,10 +1,10 @@
 import { NavBar } from "./NavBar"
-
+import logo from "./assets/images/logo.png"
 export const Header = () => {
   return (
     <header className="header">
       <a href="#">
-        <img src="./src/assets/images/logo.png" alt="logo" className="logo" />
+        <img src={logo} alt="logo" className="logo" />
       </a>
 
       <NavBar />
