@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa"
 import { useState } from "react"
 import Content from "./content.json"
+import { Socials } from "./Data/Socials"
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,11 +25,7 @@ export const NavBar = () => {
       <nav>
         <ul className={` primary-nav `} data-visible={isOpen}>
           <li>
-            <a
-              href={Content.contacts.whatsapp}
-              target="_blank"
-              className="whatsapp"
-            >
+            <a href={Socials.whatsapp} target="_blank" className="whatsapp">
               <div className="wa-icon">
                 <FaWhatsapp />
               </div>
@@ -36,26 +33,26 @@ export const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href={Content.contacts.facebook} target="_blank">
+            <a href={Socials.facebook} target="_blank">
               <FaFacebook /> Facebook
             </a>
           </li>
           <li>
-            <a href={Content.contacts.instagram} target="_blank">
+            <a href={Socials.instagram} target="_blank">
               {" "}
               <FaInstagram /> Instagram
             </a>
           </li>
           <li>
-            <a href={Content.contacts.tiktok} target="_blank">
+            <a href={Socials.tiktok} target="_blank">
               <FaTiktok /> TikTok
             </a>
           </li>
           <li>
-            <a href={Content.contacts.location} target="_blank">
+            <a href={Socials.location} target="_blank">
               {" "}
               <FaMapMarkerAlt />
-              Location
+              Locatddion
             </a>
           </li>
         </ul>
