@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       external: [
         // other external modules
-        "react-icons/*",
+        "react-icons/fa",
       ],
     },
   },
