@@ -11,19 +11,46 @@
       "sizes": [
         {
           "name": "Small",
-          "price": 1
+          "price": "1 $"
         },
         {
           "name": "Medium",
-          "price": 1.2
+          "price": "1.2 $"
         },
         {
           "name": "Large",
-          "price": 1.5
+          "price": "1.5 $"
         },
         {
           "name": "Bottle",
-          "price": 2
+          "price": "2 $"
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "name": {
+        "en": "Orange",
+
+        "ar": "ليمون"
+      },
+      "category": "Drinks-cold",
+      "sizes": [
+        {
+          "name": "Small",
+          "price": "1 $"
+        },
+        {
+          "name": "Medium",
+          "price": "1.2 $"
+        },
+        {
+          "name": "Large",
+          "price": "1.5 $"
+        },
+        {
+          "name": "Bottle",
+          "price": "2 $"
         }
       ]
     }

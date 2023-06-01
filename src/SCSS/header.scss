@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-inline: 1rem;
+  margin-inline-end: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  width: clamp(6rem, 30vw, 20rem);
+}
+.primary-nav {
+  &.active {
+    background: #000;
+  }
+}
+
+.nav-btn {
+  font-size: 3rem;
+
+  .big {
+    font-size: 5rem;
+    width: 5rem;
+  }
+}
+.none {
+  display: none;
+}
