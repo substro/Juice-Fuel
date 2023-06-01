@@ -1,3 +1,4 @@
+import { Footer } from "./Footer"
 import { MainSection } from "./MainSection"
 import { Header } from "./header"
 
@@ -6,7 +7,7 @@ function App() {
     <>
       <Header />
       <MainSection />
-      <footer className="footer"></footer>
+      <Footer />
     </>
   )
 }
