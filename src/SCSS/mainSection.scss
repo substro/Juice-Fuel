@@ -76,7 +76,7 @@
 
 .sizes {
   // outline: 1px solid red;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   font-weight: 700;
   padding-block: 1.2rem;
   display: flex;
@@ -94,14 +94,14 @@
   * {
     // outline: 1px solid lime;
   }
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   border: 1px solid rgba(0, 0, 0, 0.262);
   border-radius: 10px;
   padding: 10px 10px;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-block: 0.5rem;
+  margin-block: 0.6rem;
   @media (min-width: 601px) {
     font-size: clamp(1rem, 3vw, 2rem);
     padding-inline: clamp(1rem, 2vw, 2rem);
@@ -109,8 +109,7 @@
   .prices {
     display: flex;
     align-items: center;
-    gap: clamp(0.5rem, 7.5vw, 5rem);
-    // font-size: .5rem;
+    gap: 1rem;
     font-weight: 700;
 
     @media (min-width: 601px) {

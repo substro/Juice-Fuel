@@ -22,7 +22,7 @@ export const MainSection = () => {
           <button className="main-nav-btn">Crepes & Waffles</button>
           <button className="main-nav-btn">Saj</button>
         </div>
-        {/* <DrinksTab /> */}
+        <DrinksTab />
 
         <DrinksTabCopy />
       </div>
