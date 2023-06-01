@@ -5,17 +5,17 @@
   gap: clamp(1rem, min(5vw, 3rem), 2rem);
   margin-top: 2rem;
   font-size: clamp(2rem, 5vw, 3rem);
-  .ball {
-    width: clamp(3px, 5vw, 8px);
-    aspect-ratio: 1;
-    background-color: black;
-    border-radius: 50%;
-  }
+}
+.ball {
+  width: clamp(3px, 5vw, 8px);
+  aspect-ratio: 1;
+  background-color: black;
+  border-radius: 50%;
 }
 
 .main-section {
   min-height: 10rem;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 1rem;
   border-radius: 0.7rem;
@@ -28,12 +28,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
 
   .main-nav-btn {
     background: #bce1a8;
     font-family: inherit;
-    padding: 0.6em 1.3em;
+    padding: 0.3em 0.8em;
     font-weight: 700;
     font-size: 1.2rem;
     border: 3px solid black;
@@ -48,4 +48,81 @@
       box-shadow: 0.05em 0.05em;
     }
   }
+}
+
+.section-title {
+  margin-block: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  .ball {
+    width: 5px;
+  }
+  h4 {
+    color: rgba(0, 0, 0, 0.56);
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 601px) {
+    font-size: 2rem;
+    .icon {
+      font-size: clamp(1.5rem, 10vw, 3rem);
+    }
+  }
+}
+
+.sizes {
+  // outline: 1px solid red;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-block: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: clamp(0.5rem, 5vw, 5rem);
+  font-style: italic;
+  color: #92c17b;
+
+  @media (min-width: 601px) {
+    font-size: clamp(1.3rem, 1vw, 1.5rem);
+  }
+}
+
+.item {
+  * {
+    // outline: 1px solid lime;
+  }
+  font-size: 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.262);
+  border-radius: 10px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-block: 0.5rem;
+  @media (min-width: 601px) {
+    font-size: clamp(1rem, 3vw, 2rem);
+    padding-inline: clamp(1rem, 2vw, 2rem);
+  }
+  .prices {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.5rem, 7.5vw, 5rem);
+    // font-size: .5rem;
+    font-weight: 700;
+
+    @media (min-width: 601px) {
+      font-size: clamp(1rem, 1.5vw, 2rem);
+      gap: clamp(1rem, 5vw, 5rem);
+      span {
+        padding-inline: 0.5rem;
+      }
+    }
+  }
+}
+
+table {
+  width: 100%;
 }
