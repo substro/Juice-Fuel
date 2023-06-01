@@ -1,13 +1,13 @@
-import { NavBar } from './NavBar';
+import { NavBar } from "./NavBar"
 
 export const Header = () => {
-	return (
-		<header className="header">
-			<a href="./index.html">
-				<img src="./src/assets/images/logo.png" alt="logo" className="logo" />
-			</a>
+  return (
+    <header className="header">
+      <a href="#">
+        <img src="src/assets/images/logo.png" alt="logo" className="logo" />
+      </a>
 
-			<NavBar />
-		</header>
-	);
-};
+      <NavBar />
+    </header>
+  )
+}
