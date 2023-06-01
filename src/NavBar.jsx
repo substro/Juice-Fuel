@@ -24,7 +24,11 @@ export const NavBar = () => {
       <nav>
         <ul className={` primary-nav `} data-visible={isOpen}>
           <li>
-            <a href={Content.contacts.whatsapp} className="whatsapp">
+            <a
+              href={Content.contacts.whatsapp}
+              target="_blank"
+              className="whatsapp"
+            >
               <div className="wa-icon">
                 <FaWhatsapp />
               </div>
@@ -32,23 +36,23 @@ export const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href={Content.contacts.facebook} target="_blank">
               <FaFacebook /> Facebook
             </a>
           </li>
           <li>
-            <a href="">
+            <a href={Content.contacts.instagram} target="_blank">
               {" "}
               <FaInstagram /> Instagram
             </a>
           </li>
           <li>
-            <a href="">
+            <a href={Content.contacts.tiktok} target="_blank">
               <FaTiktok /> TikTok
             </a>
           </li>
           <li>
-            <a href="">
+            <a href={Content.contacts.location} target="_blank">
               {" "}
               <FaMapMarkerAlt />
               Location
