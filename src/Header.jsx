@@ -1,7 +1,5 @@
 import React from "react"
-import { useState, useEffect } from "react"
 import { Nav } from "./Nav"
-import { FaBars } from "react-icons/fa"
 
 export const Header = () => {
   return (
