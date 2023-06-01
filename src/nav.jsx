@@ -11,7 +11,7 @@ import { useState } from "react"
 import React from "react"
 import Content from "./content.json"
 
-export const Nav = () => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <>
@@ -61,4 +61,4 @@ export const Nav = () => {
   )
 }
 
-// export default Nav
+export default Nav
