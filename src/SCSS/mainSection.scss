@@ -76,7 +76,8 @@
 
 .sizes {
   // outline: 1px solid red;
-  font-size: 0.5rem;
+  font-size: clamp(0.55rem, 4.5vw, 0.7rem);
+
   font-weight: 700;
   padding-block: 1.2rem;
   display: flex;
@@ -94,7 +95,8 @@
   * {
     // outline: 1px solid lime;
   }
-  font-size: 0.5rem;
+
+  font-size: clamp(0.55rem, 2.5vw, 1rem);
   border: 1px solid rgba(0, 0, 0, 0.262);
   border-radius: 10px;
   padding: 10px 10px;
@@ -109,7 +111,7 @@
   .prices {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: clamp(1rem, 5.5vw, 2rem);
     font-weight: 700;
 
     @media (min-width: 601px) {
