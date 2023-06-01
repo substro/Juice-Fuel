@@ -1,10 +1,17 @@
 {
+  "contacts": {
+    "whatsapp": "+961 81 376 438",
+    "facebook": "example.com",
+    "instagram": "@fdsjah",
+    "tiktok": "fsdhfks",
+    "location": "https://www.google.com"
+  },
+
   "menu": [
     {
       "id": "sugar-cane",
       "name": {
         "en": "Sugar Cane",
-
         "ar": "قصب السكر"
       },
       "category": "Drinks-cold",

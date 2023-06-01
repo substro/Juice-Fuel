@@ -1,10 +1,11 @@
+import { MainSection } from "./MainSection"
 import { Header } from "./header"
 
 function App() {
   return (
     <>
       <Header />
-      <main className="main"></main>
+      <MainSection />
       <footer className="footer"></footer>
     </>
   )

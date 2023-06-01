@@ -1,6 +1,15 @@
-import { FaTimes, FaBars } from "react-icons/fa"
+import {
+  FaTimes,
+  FaBars,
+  FaFacebook,
+  FaMapMarkerAlt,
+  FaTiktok,
+  FaInstagram,
+  FaWhatsapp,
+} from "react-icons/fa"
 import { useState } from "react"
 import React from "react"
+import Content from "./content.json"
 
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -9,28 +18,42 @@ export const Nav = () => {
       <button
         data-visible={isOpen}
         onClick={() => setIsOpen((prev) => !prev)}
-        className="nav-btn"
+        className="nav-btn "
       >
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
       <nav>
-        <ul className={` primary-nav`} data-visible={isOpen}>
+        <ul className={` primary-nav `} data-visible={isOpen}>
           <li>
-            <a href="" className="whatsapp">
-              Whatsapp
+            <a href={Content.contacts.whatsapp} className="whatsapp">
+              <div className="wa-icon">
+                <FaWhatsapp />
+              </div>
+              <span className="wa-text">+961 81 974 945</span>
             </a>
           </li>
           <li>
-            <a href="">Facebook</a>
+            <a href="">
+              <FaFacebook /> Facebook
+            </a>
           </li>
           <li>
-            <a href="">Instagram</a>
+            <a href="">
+              {" "}
+              <FaInstagram /> Instagram
+            </a>
           </li>
           <li>
-            <a href="">TikTok</a>
+            <a href="">
+              <FaTiktok /> TikTok
+            </a>
           </li>
           <li>
-            <a href="">Location</a>
+            <a href="">
+              {" "}
+              <FaMapMarkerAlt />
+              Location
+            </a>
           </li>
         </ul>
       </nav>
