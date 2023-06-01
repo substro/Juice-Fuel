@@ -1,6 +1,6 @@
 import { Footer } from "./Footer"
 import { MainSection } from "./MainSection"
-import { Header } from "./header"
+import { Header } from "./Header"
 
 function App() {
   return (
