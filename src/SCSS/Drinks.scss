@@ -64,7 +64,11 @@
 	}
 	td:first-child,
 	td:last-child {
-		width: clamp(3.1rem, 17vw, 13rem); /* Adjust the width as needed */
+		width: clamp(3.1rem, 17vw, 13rem);
+
+		@media (min-width: 601px) {
+			font-size: clamp(1rem, 2.5vw, 1.5rem);
+		}
 	}
 
 	.prices {
