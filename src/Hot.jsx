@@ -15,12 +15,19 @@ export const Hot = () => {
 			</div>
 			<table>
 				<thead>
-					<tr className="sizes">
-						<th></th>
-						<th>Small</th>
-						<th>Medium</th>
-						<th>Large</th>
-						<th>Bottle</th>
+					<tr className="item size">
+						<td>
+							<h1></h1>
+						</td>
+						<td className="sizes">
+							<span>Small</span>
+							<span>Medium</span>
+							<span>Large</span>
+							<span>Bottle</span>
+						</td>
+						<td>
+							<h1></h1>
+						</td>
 					</tr>
 				</thead>
 
