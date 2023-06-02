@@ -5,46 +5,89 @@ export const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <div className="socials">
+        <div className="socials-container">
           <h2>Socials</h2>
-          <ul>
+          <ul className="socials">
             <li>
-              <a href={Socials.whatsapp}>WhatsApp</a>
+              <a
+                href={Socials.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp
+              </a>
             </li>
             <li>
-              <a href={Socials.facebook}>Facebook</a>
+              <a
+                href={Socials.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
             </li>
             <li>
-              <a href={Socials.instagram}>Instagram</a>
+              <a
+                href={Socials.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
             </li>
             <li>
-              <a href={Socials.tiktok}>TikTok</a>
+              <a
+                href={Socials.tiktok}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TikTok
+              </a>
             </li>
             <li>
-              <a href={Socials.location}>Location</a>
+              <a
+                href={Socials.location}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Location
+              </a>
             </li>
           </ul>
         </div>
-        <div className="content">
+        <div className="content-container">
           <h2>Content</h2>
-          <ul>
+          <ul className="content">
             <li>
-              <a href="">Drinks</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Drinks
+              </a>
             </li>
             <li>
-              <a href="">Ice-Cream</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Ice-Cream
+              </a>
             </li>
             <li>
-              <a href="">Crepes & Waffles</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Crepes & Waffles
+              </a>
             </li>
             <li>
-              <a href="">Saj</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Saj
+              </a>
             </li>
           </ul>
         </div>
-        <h2>
-          Designed and developed by{" "}
-          <a href="https://github.com/substro" className="git-link">
+        <h2 className="credit">
+          Designed and developed by
+          <a
+            href="https://github.com/substro"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="git-link"
+          >
             Ali Amin
           </a>
         </h2>
