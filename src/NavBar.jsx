@@ -8,8 +8,9 @@ import {
 	FaTimes,
 	FaWhatsapp,
 } from 'react-icons/fa';
+import { schedules } from './Data/Schedule';
 import { Socials } from './Data/Socials';
-import Content from './content.json';
+import { Schedule } from './Schedule';
 
 export const NavBar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ export const NavBar = () => {
 			<nav>
 				<ul className={` primary-nav `} data-visible={isOpen}>
 					<li>
+						<h2>Socials</h2>
 						<a href={Socials.whatsapp} target="_blank" className="whatsapp">
 							<div className="wa-icon">
 								<FaWhatsapp />
@@ -54,6 +56,17 @@ export const NavBar = () => {
 							<FaMapMarkerAlt />
 							Location
 						</a>
+					</li>
+					<li>
+						<div className="content">
+							<h2>Schedule</h2>
+							<ul>
+								<li>Monday: {schedules.monday}</li>
+								<li>Tuesday-Sunday: {schedules.tuesday}</li>
+								<li>Break: {schedules.break}</li>
+								<li>Saj: {schedules.saj}</li>
+							</ul>
+						</div>
 					</li>
 				</ul>
 			</nav>

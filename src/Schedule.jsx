@@ -41,7 +41,7 @@ export const Schedule = () => {
 							<li>Monday: {schedules.monday}</li>
 							<li>Tuesday-Sunday: {schedules.tuesday}</li>
 							<li>Break: {schedules.break}</li>
-							<li>SAJ: {schedules.saj}</li>
+							<li>Saj: {schedules.saj}</li>
 						</ul>
 					</div>
 				</div>
