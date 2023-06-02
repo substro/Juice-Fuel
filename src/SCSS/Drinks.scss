@@ -1,0 +1,77 @@
+.section-title {
+	margin-block: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: center;
+	.ball {
+		width: 5px;
+	}
+	h4 {
+		color: rgba(0, 0, 0, 0.56);
+	}
+	.icon {
+		font-size: 1.5rem;
+	}
+	@media (min-width: 601px) {
+		font-size: 2rem;
+		.icon {
+			font-size: clamp(1.5rem, 10vw, 3rem);
+		}
+	}
+}
+
+.sizes {
+	// outline: 1px solid red;
+	font-size: clamp(0.55rem, 4.5vw, 0.7rem);
+
+	font-weight: 700;
+	padding-block: 1.2rem;
+	display: flex;
+	justify-content: center;
+	gap: clamp(0.5rem, 5vw, 5rem);
+	font-style: italic;
+	color: #92c17b;
+
+	@media (min-width: 601px) {
+		font-size: clamp(1.3rem, 1vw, 1.5rem);
+	}
+}
+
+.item {
+	* {
+		// outline: 1px solid lime;
+	}
+
+	font-size: clamp(0.55rem, 2.5vw, 1rem);
+	border: 1px solid rgba(0, 0, 0, 0.262);
+	border-radius: 10px;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-block: 0.6rem;
+	@media (min-width: 601px) {
+		font-size: clamp(1rem, 3vw, 2rem);
+		padding-inline: clamp(1rem, 2vw, 2rem);
+	}
+	.prices {
+		display: flex;
+		align-items: center;
+		gap: clamp(1rem, 5.5vw, 2rem);
+		font-weight: 700;
+
+		@media (min-width: 601px) {
+			font-size: clamp(1rem, 1.5vw, 2rem);
+			gap: clamp(1rem, 5vw, 5rem);
+			span {
+				padding-inline: 0.5rem;
+			}
+		}
+	}
+}
+
+table {
+	width: 100%;
+}
