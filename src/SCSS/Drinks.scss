@@ -51,13 +51,14 @@
 	}
 
 	font-size: clamp(0.55rem, 2.5vw, 1rem);
+	font-weight: 700;
 	border: 1px solid rgba(0, 0, 0, 0.262);
 	border-radius: 10px;
 	padding: 10px 5px;
 	display: flex;
 	justify-content: space-between;
 	gap: 1rem;
-	margin-block: 0.6rem;
+	margin-block: 1rem;
 	align-items: center;
 	td:last-child {
 		text-align: right;
