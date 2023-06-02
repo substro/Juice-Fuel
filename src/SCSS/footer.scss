@@ -1,0 +1,24 @@
+.footer {
+  outline: 1px solid blue;
+
+  * {
+    outline: 1px solid blue;
+  }
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  //   gap: 20px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .socials,
+  .content {
+    li {
+      margin-block: 1rem;
+    }
+  }
+}
