@@ -3,7 +3,7 @@ export const cold = [
 		id: 1,
 		name: {
 			en: 'Sugar Cane',
-			ar: 'قصب السكر',
+			ar: 'قصب ',
 		},
 		sizes: [
 			{

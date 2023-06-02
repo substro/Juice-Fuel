@@ -27,7 +27,7 @@
 	font-size: clamp(0.6rem, 2.5vw, 0.7rem);
 
 	font-weight: 700;
-	padding-block: 0.5rem;
+	padding-block: 0.8rem;
 	display: flex;
 	justify-content: center;
 	gap: clamp(0.4rem, 4.5vw, 7rem);
@@ -41,7 +41,7 @@
 
 .item {
 	* {
-		// outline: 1px solid lime;
+		outline: 1px solid lime;
 	}
 
 	font-size: clamp(0.55rem, 2.5vw, 1rem);
@@ -52,22 +52,26 @@
 	justify-content: space-between;
 	gap: 1rem;
 	margin-block: 0.6rem;
+	align-items: center;
 	td:last-child {
 		text-align: right;
 	}
-	@media (max-width: 600px) {
-		td:first-child,
-		td:last-child {
-			width: clamp(3.2rem, 10vw, 5rem); /* Adjust the width as needed */
-		}
+	td:first-child,
+	td:last-child {
+		width: clamp(3.1rem, 17vw, 13rem); /* Adjust the width as needed */
 	}
+
 	.prices {
+		// outline: 1px solid purple;
+		place-content: initial;
 		display: flex;
 		align-items: center;
 		gap: clamp(1rem, 5.5vw, 2rem);
 		font-weight: 700;
 
 		span {
+			// outline: 1px solid purple;
+			text-align: left;
 			white-space: nowrap; /* Add this line to prevent wrapping */
 		}
 
