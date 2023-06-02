@@ -1,5 +1,5 @@
 export const schedules = {
-	monday: 'off',
+	monday: 'Off',
 	tuesday: '12:30pm - 12:00am',
 	wednesday: '12:30pm - 12:00am',
 	thursday: '12:30pm - 12:00am',
