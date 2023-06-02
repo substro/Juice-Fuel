@@ -30,7 +30,7 @@
 	padding-block: 0.8rem;
 	display: flex;
 	justify-content: center;
-	gap: clamp(0.4rem, 4.5vw, 7rem);
+	gap: clamp(0.4rem, 3vw, 7rem);
 	font-style: italic;
 	color: #92c17b;
 
@@ -41,7 +41,7 @@
 
 .item {
 	* {
-		outline: 1px solid lime;
+		// outline: 1px solid lime;
 	}
 
 	font-size: clamp(0.55rem, 2.5vw, 1rem);
