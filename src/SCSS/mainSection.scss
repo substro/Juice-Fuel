@@ -63,6 +63,32 @@
 .schedule {
 	position: relative;
 
+	.schedule-btn {
+		color: black;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		gap: 0.5rem;
+		right: 1rem;
+		bottom: -0.2rem;
+
+		.icon {
+			font-size: 1.3rem;
+			background-color: black;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 3rem;
+			aspect-ratio: 1;
+			border-radius: 50%;
+		}
+		@media (max-width: 600px) {
+			display: none;
+		}
+	}
 	.popup {
 		position: fixed;
 		top: 50%;
@@ -75,6 +101,12 @@
 		border-radius: 4px;
 		text-align: right;
 		width: 70%;
+		opacity: 0;
+		transition: opacity 500ms ease-in;
+
+		&.fade-in {
+			opacity: 1;
+		}
 
 		.close-btn {
 			margin: 1rem 1rem 0 0;
@@ -100,33 +132,6 @@
 					margin-bottom: 0.5rem;
 				}
 			}
-		}
-	}
-
-	.schedule-btn {
-		color: black;
-		position: absolute;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		gap: 0.5rem;
-		right: 1rem;
-		bottom: -0.2rem;
-
-		.icon {
-			font-size: 1.3rem;
-			background-color: black;
-			color: white;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			width: 3rem;
-			aspect-ratio: 1;
-			border-radius: 50%;
-		}
-		@media (max-width: 600px) {
-			display: none;
 		}
 	}
 }

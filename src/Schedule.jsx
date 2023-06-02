@@ -18,7 +18,6 @@ export const Schedule = () => {
 	const handleClick = (event) => {
 		event.preventDefault();
 		openPopup();
-		dialogRef.current.showModal();
 	};
 
 	return (
@@ -31,7 +30,10 @@ export const Schedule = () => {
 			</a>
 
 			{isPopupOpen && (
-				<div className="popup">
+				<div
+					className={`popup ${isPopupOpen ? 'fade-in' : ''}`}
+					ref={dialogRef}
+				>
 					<button className="close-btn" onClick={closePopup}>
 						<FaTimes />
 					</button>
