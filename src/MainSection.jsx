@@ -1,28 +1,30 @@
-import React from "react"
-import DrinksTab from "./DrinksTab"
+import React from 'react';
+import DrinksTab from './DrinksTab';
+import { Schedule } from './Schedule';
 
 export const MainSection = () => {
-  return (
-    <>
-      <div className="menu-title">
-        <div className="ball"></div>
-        <div className="ball"></div>
-        <div className="ball"></div>
-        <h2>Menu</h2>
-        <div className="ball"></div>
-        <div className="ball"></div>
-        <div className="ball"></div>
-      </div>
+	return (
+		<>
+			<div className="menu-title">
+				<div className="ball"></div>
+				<div className="ball"></div>
+				<div className="ball"></div>
+				<h2>Menu</h2>
+				<div className="ball"></div>
+				<div className="ball"></div>
+				<div className="ball"></div>
+			</div>
 
-      <div className="main-section">
-        <div className="nav-buttons">
-          <button className="main-nav-btn">Drinks</button>
-          <button className="main-nav-btn">Ice-Cream</button>
-          <button className="main-nav-btn">Crepes & Waffles</button>
-          <button className="main-nav-btn">Saj</button>
-        </div>
-        <DrinksTab />
-      </div>
-    </>
-  )
-}
+			<div className="main-section">
+				<div className="nav-buttons">
+					<button className="main-nav-btn">Drinks</button>
+					<button className="main-nav-btn">Ice-Cream</button>
+					<button className="main-nav-btn">Crepes & Waffles</button>
+					<button className="main-nav-btn">Saj</button>
+				</div>
+				<Schedule />
+				<DrinksTab />
+			</div>
+		</>
+	);
+};
