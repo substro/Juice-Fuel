@@ -1,4 +1,5 @@
 body {
+  position: relative;
   background: linear-gradient(
     150deg,
     rgba(138, 222, 217, 0.8),
@@ -6,5 +7,26 @@ body {
   );
   background-repeat: no-repeat;
   min-height: 100vh;
-  // width: 100vw;
+  overflow-y: auto;
+}
+
+.fruits-container {
+  * {
+    outline: 1px solid red;
+  }
+//   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  inset: 0;
+  z-index: -999;
+  margin-top: 20vh;
+  .fruit-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 100vh;
+  }
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
