@@ -32,7 +32,7 @@ export const MainSection = () => {
             className="main-nav-btn"
             onClick={() => setActivePage("Ice-Cream")}
           >
-            Ice-Cream
+            Ice Cream
           </button>
           <button
             className="main-nav-btn"

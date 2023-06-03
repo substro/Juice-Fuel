@@ -1,0 +1,17 @@
+.main-container {
+  .brunch {
+  }
+  .add-ons {
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      width: 100%;
+      li {
+        font-size: 0.5rem;
+        background-color: red;
+        flex-basis: 1rem;
+      }
+    }
+  }
+}
