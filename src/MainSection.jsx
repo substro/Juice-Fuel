@@ -7,7 +7,7 @@ import { Saj } from "./Saj";
 import { useState } from "react";
 
 export const MainSection = () => {
-  const { activePage, setActivePage } = useState("Drinks");
+  const [activePage, setActivePage] = useState("Drinks");
   return (
     <>
       <div className="menu-title">
