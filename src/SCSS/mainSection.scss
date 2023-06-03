@@ -18,7 +18,8 @@
 .main-section {
   position: relative;
   min-height: 10rem;
-  width: 90%;
+//   width: 90%;
+max-width: min-content;
   margin: 0 auto;
   margin-top: 1rem;
   border-radius: 0.7rem;
