@@ -1,6 +1,6 @@
 import React from "react";
-import leftFruits from "./assets/images/fruits-left.png";
-import rightFruits from "./assets/images/fruits-right.png";
+import leftFruits from "../assets/images/fruits-left.png";
+import rightFruits from "../assets/images/fruits-right.png";
 
 export const Fruits = () => {
   return (

@@ -8,8 +8,8 @@ import {
   FaTimes,
   FaWhatsapp,
 } from "react-icons/fa";
-import { schedules } from "./Data/Schedule";
-import { Socials } from "./Data/Socials";
+import { schedules } from "../Data/Schedule";
+import { Socials } from "../Data/Socials";
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);

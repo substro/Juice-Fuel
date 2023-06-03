@@ -1,6 +1,6 @@
 import React from "react";
 import { LuCoffee } from "react-icons/lu";
-import { hot } from "./Data/Drinks";
+import { hot } from "../Data/Drinks";
 
 export const Hot = () => {
   return (

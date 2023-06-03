@@ -1,7 +1,7 @@
-import { Footer } from "./Footer";
+import { Footer } from "./Components/Footer";
 import { MainSection } from "./MainSection";
-import { Header } from "./Header";
-import { Fruits } from "./Fruits";
+import { Header } from "./Components/Header";
+import { Fruits } from "./Components/Fruits";
 
 function App() {
   return (

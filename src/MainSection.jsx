@@ -1,9 +1,9 @@
 import React from "react";
-import DrinksTab from "./DrinksTab";
-import { Schedule } from "./Schedule";
-import { IceCream } from "./IceCream";
-import { Brunch } from "./Brunch";
-import { Saj } from "./Saj";
+import DrinksTab from "./Components/DrinksTab";
+import { Schedule } from "./Components/Schedule";
+import { IceCream } from "./Components/IceCream";
+import { Brunch } from "./Components/Brunch";
+import { Saj } from "./Components/Saj";
 import { useState } from "react";
 
 export const MainSection = () => {
