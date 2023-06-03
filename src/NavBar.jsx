@@ -10,7 +10,6 @@ import {
 } from "react-icons/fa";
 import { schedules } from "./Data/Schedule";
 import { Socials } from "./Data/Socials";
-import { Schedule } from "./Schedule";
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,6 +72,3 @@ export const NavBar = () => {
     </>
   );
 };
-
-export const primaryNav = "primary-nav"
-// export default NavBar
