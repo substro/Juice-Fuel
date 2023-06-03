@@ -17,7 +17,7 @@ export const Brunch = () => {
           <ul className="items">
             {crepes.map((item, index) => (
               <li key={index}>
-                {item.name} : {item.price}{" "}
+                <span className="name">{item.name}</span> : {item.price}{" "}
                 {item.extra && `- Extra: ${item.extra}`}
               </li>
             ))}
@@ -28,8 +28,10 @@ export const Brunch = () => {
           <ul className="items">
             {waffles.map((item, index) => (
               <li key={index}>
-                {item.name} : {item.price}{" "}
-                {item.extra && `- Extra: ${item.extra}`}
+                <span className="name">{item.name}</span> : {item.price}{" "}
+                <span className="name">
+                  {item.extra && `- Extra: ${item.extra}`}
+                </span>
               </li>
             ))}
           </ul>
@@ -39,7 +41,7 @@ export const Brunch = () => {
           <ul className="items">
             {addOns.map((item, index) => (
               <li key={index}>
-                {item.name} : {item.price}
+                <span className="name">{item.name}</span> : {item.price}
               </li>
             ))}
           </ul>
