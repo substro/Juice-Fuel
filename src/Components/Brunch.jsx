@@ -1,6 +1,6 @@
 import React from "react";
 import { MdBrunchDining } from "react-icons/md";
-import { addOns, brunch } from "../Data/Brunch";
+import { addOns, crepes, waffles } from "../Data/Brunch";
 
 export const Brunch = () => {
   return (
@@ -13,22 +13,33 @@ export const Brunch = () => {
       </div>
       <div className="main-container">
         <div className="brunch">
-          <h4>Sweet Crepes:</h4>
+          <h4>Crepes</h4>
           <ul className="items">
-            {brunch.map((item, index) => (
+            {crepes.map((item, index) => (
               <li key={index}>
-                {item.name} - {item.price}{" "}
+                {item.name} : {item.price}{" "}
+                {item.extra && `- Extra: ${item.extra}`}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="brunch">
+          <h4>Waffles</h4>
+          <ul className="items">
+            {waffles.map((item, index) => (
+              <li key={index}>
+                {item.name} : {item.price}{" "}
                 {item.extra && `- Extra: ${item.extra}`}
               </li>
             ))}
           </ul>
         </div>
         <div className="add-ons">
-          <h4>Add-ons:</h4>
+          <h4>Add-ons</h4>
           <ul className="items">
             {addOns.map((item, index) => (
               <li key={index}>
-                {item.name} - {item.price}
+                {item.name} : {item.price}
               </li>
             ))}
           </ul>

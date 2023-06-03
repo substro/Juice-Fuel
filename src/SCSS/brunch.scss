@@ -1,27 +1,34 @@
 .main-container {
-  .brunch {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  h4 {
+    text-align: center;
+    color: #3670dc;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 5px;
   }
+
+  .brunch,
   .add-ons {
     * {
-      outline: 1px solid blue;
+      // outline: 1px solid blue;
     }
-    h4 {
-      text-align: left;
-      font-weight: bold;
-      font-size: 0.8rem;
-      padding: 5px;
-    }
+
     .items {
-      border: 1px solid black;
-      padding: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      padding: 1rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       gap: 10px;
+      border-radius: 10px;
+
       li {
-        font-size: 0.5rem;
-        // background-color: red;
+        font-size: 0.7rem;
         flex-basis: 1rem;
         white-space: nowrap;
       }

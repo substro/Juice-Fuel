@@ -28,7 +28,7 @@ export const addOns = [
     price: "0.75 $",
   },
   {
-    name: "Motzarella Cheese",
+    name: "Mozzarella Cheese",
     price: "1 $",
   },
   {
@@ -51,42 +51,29 @@ export const addOns = [
     name: "Banana",
     price: "0.25 $",
   },
+];
+
+export const crepes = [
   {
-    name: "Crepe: Nutella - Kinder - Lotus",
-    price: "2.5 $",
+    name: "Nutella",
+    price: "2.5$",
+    extra: "1$",
   },
   {
-    name: "Extra",
-    price: "1 $",
+    name: "Kinder",
+    price: "2.5$",
+    extra: "1$",
   },
   {
-    name: "Waffle: Chocolate & Fruits",
-    price: "4.5 $",
-  },
-  {
-    name: "Juice fuel crepe roll",
-    price: "4.5 $",
+    name: "Lotus",
+    price: "2.5$",
+    extra: "1$",
   },
 ];
 
-export const brunch = [
+export const waffles = [
   {
-    name: "Crepe: Nutella",
-    price: "2.5$",
-    extra: "1$",
-  },
-  {
-    name: "Crepe: Kinder",
-    price: "2.5$",
-    extra: "1$",
-  },
-  {
-    name: "Crepe: Lotus",
-    price: "2.5$",
-    extra: "1$",
-  },
-  {
-    name: "Waffle: Chocolate & Fruits",
+    name: "Chocolate & Fruits",
     price: "4.5$",
   },
   {
