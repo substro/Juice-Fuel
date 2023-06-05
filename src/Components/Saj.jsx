@@ -9,6 +9,8 @@ export const Saj = () => {
           <GiFullPizza />
         </div>
         <h3>Saj </h3>
+        <div className="ball"></div>
+        <h4>7:00pm - 12:00am</h4>
       </div>
       {/* Rest of the Saj Bread content */}
     </>
