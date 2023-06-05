@@ -220,7 +220,7 @@ export const cold = [
       },
       {
         name: "Bottle",
-        price: "",
+        price: "-",
       },
     ],
   },
@@ -245,7 +245,7 @@ export const cold = [
       },
       {
         name: "Bottle",
-        price: "",
+        price: "-",
       },
     ],
   },
@@ -295,7 +295,7 @@ export const cold = [
       },
       {
         name: "Bottle",
-        price: "",
+        price: "-",
       },
     ],
   },
@@ -433,7 +433,7 @@ export const cold = [
     sizes: [
       {
         name: "Small",
-        price: "",
+        price: "-",
       },
       {
         name: "Medium",
@@ -445,7 +445,7 @@ export const cold = [
       },
       {
         name: "Bottle",
-        price: "",
+        price: "-",
       },
     ],
   },
