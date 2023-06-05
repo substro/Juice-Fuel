@@ -44,7 +44,6 @@ export const MainSection = () => {
             Saj
           </button>
         </div>
-        <Schedule />
         {activePage === "Drinks" && <DrinksTab />}
         {activePage === "Ice-Cream" && <IceCream />}
         {activePage === "Crepes & Waffles" && <Brunch />}

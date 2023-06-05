@@ -4,6 +4,7 @@ import { Schedule } from "./Schedule";
 export const Header = () => {
   return (
     <>
+      <Schedule />
       <header className="header">
         <a href="#">
           <img src={logo} alt="logo" className="logo" />
@@ -11,7 +12,6 @@ export const Header = () => {
 
         <NavBar />
       </header>
-      <Schedule />
     </>
   );
 };
