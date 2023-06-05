@@ -42,7 +42,6 @@
   }
   .logo {
     width: clamp(6rem, 30vw, 20rem);
-
   }
   .primary-nav {
     a {
@@ -121,6 +120,7 @@
 
       &[data-visible="false"] {
         color: #000;
+        position: absolute;
       }
     }
   }
