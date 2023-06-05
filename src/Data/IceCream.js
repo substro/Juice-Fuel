@@ -1,9 +1,9 @@
-export const hot = [
+export const flavours = [
   {
     id: 1,
     name: {
-      en: "Sahlab",
-      ar: "سحلب",
+      en: "Vanilla",
+      ar: "فانيلا",
     },
     sizes: [
       {
@@ -17,10 +17,6 @@ export const hot = [
       {
         name: "Large",
         price: "1.5$",
-      },
-      {
-        name: "Bottle",
-        price: "2$",
       },
     ],
   },

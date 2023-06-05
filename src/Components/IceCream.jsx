@@ -22,7 +22,6 @@ export const IceCream = () => {
                 <span>Small</span>
                 <span>Medium</span>
                 <span>Large</span>
-                <span>Bottle</span>
               </td>
               <td>
                 <h1></h1>
