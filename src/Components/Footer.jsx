@@ -108,7 +108,11 @@ export const Footer = () => {
             Ali Amin
           </a>
         </h2>
-        
+        {showButton && (
+          <button className="back-to-top" onClick={scrollToTop}>
+            <AiOutlineArrowUp />
+          </button>
+        )}
       </footer>
     </>
   );
