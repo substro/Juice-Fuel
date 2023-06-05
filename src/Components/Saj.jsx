@@ -41,7 +41,7 @@ export const Saj = () => {
           <thead>
             <tr className="item size">
               <td>
-                <h1>صحون</h1>
+                <h1>اكسترا</h1>
               </td>
             </tr>
           </thead>
