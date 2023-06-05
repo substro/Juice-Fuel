@@ -83,7 +83,7 @@ export const saj = [
 export const extra = [
   {
     id: 1,
-    name: "مارغو ساج",
+    name: "مارغو صاج",
     price: "2$",
   },
   {
@@ -105,7 +105,7 @@ export const sweets = [
   },
   {
     id: 2,
-    name: "بوك عسل",
+    name: "بوك و عسل",
     price: "2.5$",
   },
   {

@@ -1,9 +1,7 @@
 import React from "react";
 import { GiFullPizza } from "react-icons/gi";
 import { schedules } from "../Data/Schedule";
-import { saj } from "../Data/Saj";
-import { extra } from "../Data/Saj";
-import { sweets } from "../Data/Saj";
+import { saj, extra, sweets } from "../Data/Saj";
 
 export const Saj = () => {
   return (

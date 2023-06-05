@@ -22,9 +22,7 @@
 .main-section {
   position: relative;
   min-height: 10rem;
-  //   width: 90%;
   min-width: 50%;
-  max-width: min-content;
   margin: 0 auto;
   margin-top: 1rem;
   border-radius: 0.7rem;
@@ -32,9 +30,10 @@
   background: #f0f0f0;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   margin-bottom: 2rem;
-
+  width: clamp(70%, 100vw, 90%);
   @media (min-width: 601px) {
-    width: clamp(70%, 100vw, 90%);
+    // width: clamp(80%, 100vw, 90%);
+    max-width: min-content;
   }
 }
 .nav-buttons {
