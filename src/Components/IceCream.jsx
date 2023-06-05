@@ -1,6 +1,6 @@
 import React from "react";
 import { GiIceCreamCone } from "react-icons/gi";
-import {hot} from "../Data/Drinks"
+import { flavours } from "../Data/IceCream";
 
 export const IceCream = () => {
   return (
@@ -31,7 +31,7 @@ export const IceCream = () => {
           </thead>
 
           <tbody>
-            {hot.map((x) => {
+            {flavours.map((x) => {
               return (
                 <tr className="item" key={x.id}>
                   <td>
