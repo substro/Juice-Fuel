@@ -60,10 +60,10 @@ export const NavBar = () => {
             <div className="content">
               <h2>Schedule</h2>
               <ul>
-                <li>Monday: {schedules.monday}</li>
-                <li>Tuesday-Sunday: {schedules.tuesday}</li>
-                <li>Break: {schedules.break}</li>
-                <li>Saj: {schedules.saj}</li>
+                <li>Monday:&nbsp;{schedules.monday}</li>
+                <li>Tuesday-Sunday: &nbsp;{schedules.tuesday}</li>
+                <li>Break: &nbsp;{schedules.break}</li>
+                <li>Saj: &nbsp;{schedules.saj}</li>
               </ul>
             </div>
           </li>
