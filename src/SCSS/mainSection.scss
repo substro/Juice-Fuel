@@ -2,6 +2,7 @@
 @import "iceCream";
 @import "brunch";
 @import "saj";
+@import "schedule";
 
 .menu-title {
   display: flex;
@@ -61,82 +62,6 @@
     &:active {
       transform: translate(0.05em, 0.05em);
       box-shadow: 0.05em 0.05em;
-    }
-  }
-}
-
-.schedule {
-  position: relative;
-
-  .schedule-btn {
-    color: black;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0.5rem;
-    right: 1rem;
-    bottom: -0.2rem;
-
-    .icon {
-      font-size: 1.3rem;
-      background-color: black;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 3rem;
-      aspect-ratio: 1;
-      border-radius: 50%;
-    }
-    @media (max-width: 600px) {
-      display: none;
-    }
-  }
-  .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    background-color: #bce1a8;
-    padding: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    text-align: right;
-    width: 70%;
-    opacity: 0;
-    transition: opacity 500ms ease-in;
-
-    &.fade-in {
-      opacity: 1;
-    }
-
-    .close-btn {
-      margin: 1rem 1rem 0 0;
-      cursor: pointer;
-      font-size: 2rem;
-    }
-    .content {
-      text-align: center;
-      margin-top: 1rem;
-
-      h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-      }
-
-      ul {
-        list-style: none;
-        padding-block: 2rem;
-        li {
-          padding-block: 1rem;
-          font-size: 1.5rem;
-          margin-bottom: 0.5rem;
-        }
-      }
     }
   }
 }

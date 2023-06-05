@@ -1,13 +1,17 @@
-import { NavBar } from "./NavBar"
-import logo from "../assets/images/logo.png"
+import { NavBar } from "./NavBar";
+import logo from "../assets/images/logo.png";
+import { Schedule } from "./Schedule";
 export const Header = () => {
   return (
-    <header className="header">
-      <a href="#">
-        <img src={logo} alt="logo" className="logo" />
-      </a>
+    <>
+      <header className="header">
+        <a href="#">
+          <img src={logo} alt="logo" className="logo" />
+        </a>
 
-      <NavBar />
-    </header>
-  )
-}
+        <NavBar />
+      </header>
+      <Schedule />
+    </>
+  );
+};
