@@ -34,8 +34,7 @@
   }
 
   @media (min-width: 601px) {
-
-
+    width: clamp(50vw, 60vw, 70vw);
     h4 {
       font-size: clamp(1rem, 2vw, 5rem);
       margin-block: 1rem;
