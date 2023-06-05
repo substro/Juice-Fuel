@@ -1,5 +1,5 @@
 import React from "react";
-import { GiIceCreamCone } from "react-icons/gi";
+import { IoIosIceCream } from "react-icons/io";
 import { flavours } from "../Data/IceCream";
 
 export const IceCream = () => {
@@ -7,9 +7,9 @@ export const IceCream = () => {
     <>
       <div className="section-title">
         <div className="icon">
-          <GiIceCreamCone />
+          <IoIosIceCream />
         </div>
-        <h3>Ice Cream</h3>
+        <h3>Arabic Ice Cream</h3>
       </div>
       <div className="ice-cream-container">
         <table>

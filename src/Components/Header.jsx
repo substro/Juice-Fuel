@@ -7,7 +7,7 @@ export const Header = () => {
       <Schedule />
       <header className="header">
         <a href="#">
-          <img src={logo} alt="logo" className="logo" />
+          <img src={logo} alt="logo" className="logo " />
         </a>
 
         <NavBar />
