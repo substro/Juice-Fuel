@@ -13,7 +13,6 @@ export const Saj = () => {
         <div className="ball"></div>
         <h4>{schedules.saj}</h4>
       </div>
-      {/* Rest of the Saj Bread content */}
     </>
   );
 };
