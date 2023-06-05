@@ -22,7 +22,7 @@ export const NavBar = () => {
       >
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
-      <nav>
+      <nav className={isOpen ? "open" : ""}>
         <ul className={` primary-nav `} data-visible={isOpen}>
           <li>
             <h2>Socials</h2>
