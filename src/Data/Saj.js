@@ -1,12 +1,12 @@
 export const saj = [
   {
     id: 1,
-    name: "جبنه",
+    name: "بقعة",
     price: "1.25$",
   },
   {
     id: 2,
-    name: "جبنه",
+    name: "زعتر",
     price: "1.25$",
   },
   {
@@ -16,22 +16,69 @@ export const saj = [
   },
   {
     id: 4,
-    name: "جبنه",
+    name: "جبنه و زعتر",
     price: "1.25$",
   },
   {
     id: 5,
-    name: "جبنه",
+    name: "جبنه و مرتديلا",
     price: "1.25$",
   },
   {
     id: 6,
-    name: "جبنه",
+    name: "جبنه و حبش",
     price: "1.25$",
   },
   {
     id: 7,
-    name: "جبنه",
+    name: "جبنة و سجق",
+    price: "1.25$",
+  },
+  {
+    id: 8,
+    name: "٣ انواع جبنة",
+    price: "1.25$",
+  },
+  {
+    id: 9,
+    name: "جبنة و حبش مدخن",
+    price: "1.25$",
+  },
+  {
+    id: 10,
+    name: "كشك",
+    price: "1.25$",
+  },
+  {
+    id: 11,
+    name: "كشك و جبنة",
+    price: "1.25$",
+  },
+  {
+    id: 12,
+    name: "لبنة",
+    price: "1.25$",
+  },
+  {
+    id: 13,
+    name: "لبنة مع خضرة",
+    price: "1.25$",
+  },
+  {
+    id: 14,
+    name: "زعتر مع خضرة",
+    price: "1.25$",
+  },
+  {
+    id: 15,
+    name: "حرحورة",
+    price: "1.25$",
+  },
+  {
+    id: 16,
+    name: "حيدروف",
     price: "1.25$",
   },
 ];
+export const extra = [];
+export const sweets = [];

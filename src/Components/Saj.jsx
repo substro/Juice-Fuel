@@ -2,6 +2,8 @@ import React from "react";
 import { GiFullPizza } from "react-icons/gi";
 import { schedules } from "../Data/Schedule";
 import { saj } from "../Data/Saj";
+import { extra } from "../Data/Saj";
+import { sweets } from "../Data/Saj";
 
 export const Saj = () => {
   return (
@@ -19,9 +21,6 @@ export const Saj = () => {
           <thead>
             <tr className="item size">
               <td>
-                <h1></h1>
-              </td>
-              <td>
                 <h1>مناقيش</h1>
               </td>
             </tr>
@@ -29,6 +28,45 @@ export const Saj = () => {
 
           <tbody>
             {saj.map((x) => {
+              return (
+                <tr className="item" key={x.id}>
+                  <td className="prices">{x.price}</td>
+                  <td>
+                    <h1>{x.name}</h1>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+          <thead>
+            <tr className="item size">
+              <td>
+                <h1>صحون</h1>
+              </td>
+            </tr>
+          </thead>
+
+          <tbody>
+            {extra.map((x) => {
+              return (
+                <tr className="item" key={x.id}>
+                  <td className="prices">{x.price}</td>
+                  <td>
+                    <h1>{x.name}</h1>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+          <thead>
+            <tr className="item size">
+              <td>
+                <h1>حلو</h1>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            {sweets.map((x) => {
               return (
                 <tr className="item" key={x.id}>
                   <td className="prices">{x.price}</td>
