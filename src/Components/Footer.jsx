@@ -1,7 +1,24 @@
 import React from "react";
 import { Socials } from "../Data/Socials";
+import { AiOutlineArrowUp } from "react-icons/ai";
+import { useState, useEffect } from "react";
 
 export const Footer = () => {
+  const [showButton, setShowButton] = useState(false);
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const showThreshold = 300;
+    setShowButton(scrollY > showThreshold);
+  };
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <footer className="footer">
@@ -91,6 +108,7 @@ export const Footer = () => {
             Ali Amin
           </a>
         </h2>
+        
       </footer>
     </>
   );

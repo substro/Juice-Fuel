@@ -83,3 +83,20 @@
     }
   }
 }
+.back-to-top {
+  position: fixed;
+  bottom: 5rem;
+  right: 20px;
+  background-color: #3670dc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
