@@ -94,7 +94,7 @@
   cursor: pointer;
   font-size: 1rem;
   @media (min-width: 601px) {
-    padding: clamp(0.5rem, 1.5vw, 1.5rem) clamp(1rem, 2.5vw, 2rem);
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    padding: clamp(0.32rem, 0.96vw, 0.96rem) clamp(0.64rem, 1.6vw, 1.28rem);
+    font-size: clamp(0.96rem, 2.56vw, 1.6rem);
   }
 }
