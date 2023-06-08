@@ -14,21 +14,6 @@ export const Hot = () => {
 				<h4>Hot</h4>
 			</div>
 			<table>
-				<thead>
-					<tr className='item size'>
-						<td>
-							<h1></h1>
-						</td>
-						<td className='sizes'>
-							<span>Small</span>
-							<span>Medium</span>
-						</td>
-						<td>
-							<h1></h1>
-						</td>
-					</tr>
-				</thead>
-
 				<tbody>
 					{hot.map((x) => {
 						return (

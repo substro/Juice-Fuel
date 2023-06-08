@@ -463,10 +463,6 @@ export const hot = [
 				name: 'Small',
 				price: '40 000 L.L.',
 			},
-			{
-				name: 'Medium',
-				price: '1.2$',
-			},
 		],
 	},
 	{
@@ -479,10 +475,6 @@ export const hot = [
 			{
 				name: 'Small',
 				price: '40 000 L.L.',
-			},
-			{
-				name: 'Medium',
-				price: '1.2$',
 			},
 		],
 	},
@@ -497,10 +489,6 @@ export const hot = [
 				name: 'Small',
 				price: '40 000 L.L.',
 			},
-			{
-				name: 'Medium',
-				price: '1.2$',
-			},
 		],
 	},
 	{
@@ -514,10 +502,6 @@ export const hot = [
 				name: 'Small',
 				price: '40 000 L.L.',
 			},
-			{
-				name: 'Medium',
-				price: '1.2$',
-			},
 		],
 	},
 	{
@@ -530,10 +514,6 @@ export const hot = [
 			{
 				name: 'Small',
 				price: '40 000 L.L.',
-			},
-			{
-				name: 'Medium',
-				price: '1.2$',
 			},
 		],
 	},
