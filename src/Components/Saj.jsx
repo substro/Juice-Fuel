@@ -30,7 +30,7 @@ export const Saj = () => {
 								<tr className='item' key={x.id}>
 									<td className='prices'>{x.price}</td>
 									<td>
-										<h1>{x.name}</h1>
+										<h1 className='name-ar'>{x.name}</h1>
 									</td>
 								</tr>
 							)

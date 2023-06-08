@@ -11,5 +11,10 @@ saj-container {
 			font-size: 0.7rem;
 			justify-content: flex-end;
 		}
+		@media (max-width: 600px) {
+			.name-ar {
+				font-size: 0.75rem;
+			}
+		}
 	}
 }
