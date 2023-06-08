@@ -456,12 +456,12 @@ export const hot = [
 		id: 1,
 		name: {
 			en: 'Cappuccino',
-			ar: 'كابوتشينو',
+			ar: 'كابتشينو',
 		},
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '40 000 L.L.',
 			},
 			{
 				name: 'Medium',
@@ -473,7 +473,7 @@ export const hot = [
 		id: 2,
 		name: {
 			en: 'espresso',
-			ar: 'سحلب',
+			ar: 'إسبرسو',
 		},
 		sizes: [
 			{
@@ -490,12 +490,12 @@ export const hot = [
 		id: 3,
 		name: {
 			en: 'Nescafe',
-			ar: 'سحلب',
+			ar: 'نسكافيه',
 		},
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '40 000 L.L.',
 			},
 			{
 				name: 'Medium',
@@ -506,13 +506,13 @@ export const hot = [
 	{
 		id: 4,
 		name: {
-			en: 'Ice Coffee',
+			en: 'Sahlab',
 			ar: 'سحلب',
 		},
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '40 000 L.L.',
 			},
 			{
 				name: 'Medium',
@@ -523,47 +523,13 @@ export const hot = [
 	{
 		id: 5,
 		name: {
-			en: 'Sahlab',
-			ar: 'سحلب',
+			en: 'Ice coffee',
+			ar: 'قهوة مثلجة',
 		},
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
-			},
-			{
-				name: 'Medium',
-				price: '1.2$',
-			},
-		],
-	},
-	{
-		id: 6,
-		name: {
-			en: 'Sahlab',
-			ar: 'سحلب',
-		},
-		sizes: [
-			{
-				name: 'Small',
-				price: '1$',
-			},
-			{
-				name: 'Medium',
-				price: '1.2$',
-			},
-		],
-	},
-	{
-		id: 7,
-		name: {
-			en: 'Sahlab',
-			ar: 'سحلب',
-		},
-		sizes: [
-			{
-				name: 'Small',
-				price: '1$',
+				price: '40 000 L.L.',
 			},
 			{
 				name: 'Medium',

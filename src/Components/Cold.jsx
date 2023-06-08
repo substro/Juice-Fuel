@@ -4,7 +4,7 @@ import { cold } from "../Data/Drinks";
 
 export const Cold = () => {
   return (
-    <div className="drink-container-cold">
+    <div className="drink-container-cold"  >
       <div className="section-title">
         <div className="icon">
           <LuCupSoda />

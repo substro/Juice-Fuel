@@ -1,66 +1,66 @@
-@import "Drinks";
-@import "iceCream";
-@import "brunch";
-@import "saj";
-@import "schedule";
+@import 'Drinks';
+@import 'iceCream';
+@import 'brunch';
+@import 'saj';
+@import 'schedule';
 
 .menu-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(1rem, min(5vw, 3rem), 2rem);
-  margin-top: 2rem;
-  font-size: clamp(2rem, 5vw, 3rem);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: clamp(1rem, min(5vw, 3rem), 2rem);
+	margin-top: 2rem;
+	font-size: clamp(2rem, 5vw, 3rem);
 }
 .ball {
-  width: clamp(3px, 5vw, 8px);
-  aspect-ratio: 1;
-  background-color: black;
-  border-radius: 50%;
+	width: clamp(3px, 5vw, 8px);
+	aspect-ratio: 1;
+	background-color: black;
+	border-radius: 50%;
 }
 
 .main-section {
-  position: relative;
-  min-height: 10rem;
-  min-width: 50%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  border-radius: 0.7rem;
-  padding: 10px;
-  background: #f0f0f0;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  margin-bottom: 2rem;
-  width: clamp(70%, 100vw, 90%);
-  @media (min-width: 601px) {
-    // width: clamp(80%, 100vw, 90%);
-    max-width: min-content;
-  }
+	position: relative;
+	min-height: 10rem;
+	min-width: 50%;
+	margin: 0 auto;
+	margin-top: 1rem;
+	border-radius: 0.7rem;
+	padding: 10px;
+	background: #f0f0f0;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	margin-bottom: 2rem;
+	width: clamp(70%, 100vw, 90%);
+	@media (min-width: 601px) {
+		// width: clamp(80%, 100vw, 90%);
+		max-width: min-content;
+	}
 }
 .nav-buttons {
-  padding-block: 1.5rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+	padding-block: 1.5rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
 
-  .main-nav-btn {
-    cursor: pointer;
-    background: #bce1a8;
-    font-family: inherit;
-    padding: 0.3em 0.8em;
-    font-weight: 700;
-    font-size: 1.2rem;
-    border: 3px solid black;
-    border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em;
-    &:is(:hover, :focus) {
-      transform: translate(-0.05em, -0.05em);
-      box-shadow: 0.15em 0.15em;
-      background-color: #5da636;
-    }
-    &:active {
-      transform: translate(0.05em, 0.05em);
-      box-shadow: 0.05em 0.05em;
-    }
-  }
+	.main-nav-btn {
+		cursor: pointer;
+		background: #bce1a8;
+		font-family: inherit;
+		padding: 0.3em 0.8em;
+		font-weight: 700;
+		font-size: 1.2rem;
+		border: 3px solid black;
+		border-radius: 0.4em;
+		box-shadow: 0.1em 0.1em;
+		&:is(:hover, :focus) {
+			transform: translate(-0.05em, -0.05em);
+			box-shadow: 0.15em 0.15em;
+			background-color: #5da636;
+		}
+		&:active {
+			transform: translate(0.05em, 0.05em);
+			box-shadow: 0.05em 0.05em;
+		}
+	}
 }
