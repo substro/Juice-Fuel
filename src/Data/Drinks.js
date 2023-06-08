@@ -449,6 +449,14 @@ export const cold = [
 			},
 		],
 	},
+	{
+		id: 19,
+		name: {
+			en: 'fresh frisco',
+			ar: 'فرش فريسكو',
+		},
+		sizes: [],
+	},
 ]
 
 export const hot = [

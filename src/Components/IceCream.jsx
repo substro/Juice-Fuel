@@ -32,6 +32,7 @@ export const IceCream = () => {
 						{flavours.map((item, index) => (
 							<li key={index}>
 								<span className='name'>
+									<b>| </b>
 									{item.name}
 									<b>|</b>
 								</span>
