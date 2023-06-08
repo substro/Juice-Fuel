@@ -73,6 +73,7 @@
 	}
 	td:first-child,
 	td:last-child {
+		font-size: 0.61rem;
 		width: clamp(3.1rem, 17vw, 13rem);
 
 		@media (min-width: 601px) {
