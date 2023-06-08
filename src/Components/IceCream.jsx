@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { IoIosIceCream } from 'react-icons/io'
-import { flavours } from '../Data/IceCream'
+import { flavours, prices } from '../Data/IceCream'
 
 export const IceCream = () => {
 	return (
@@ -18,7 +18,12 @@ export const IceCream = () => {
 					<h4>Large</h4>
 				</div>
 				<div className='price'>
-					<p></p>
+					{prices.map((item, i) => (
+						<Fragment key={i}>
+							<p>{item.medium}</p>
+							<p>{item.Large}</p>
+						</Fragment>
+					))}
 				</div>
 
 				<div className='flavours'>

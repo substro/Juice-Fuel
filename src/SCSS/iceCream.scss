@@ -8,10 +8,26 @@
 	.sizes {
 		display: flex;
 		justify-content: center;
+		gap: 7rem;
+		margin-bottom: 1rem;
+    font-size: 1rem;
+	}
+	.price {
+		// width: max-content;
+		font-weight: bold;
+		font-size: clamp(0.85rem, 1.5vw, 3rem);
+		display: flex;
+		justify-content: center;
+		gap: clamp(1rem, 3vw, 2.4rem);
+		background-color: white;
+		padding-block: 1rem;
+		border: 1px solid grey;
+		border-radius: 10px;
 	}
 	.flavours {
 		padding-inline: clamp(1rem, 3vw, 3rem);
 		padding-bottom: clamp(1rem, 3vw, 3rem);
+		margin-top: 1rem;
 	}
 	.items {
 		background: white;
@@ -33,10 +49,10 @@
 			font-size: 0.9rem;
 		}
 	}
-  b{
-    color:green;
-    
-  }
+	b {
+		color: #bce1a8;
+		padding-left: 0.4rem;
+	}
 
 	@media (min-width: 601px) {
 		width: clamp(50vw, 60vw, 70vw);

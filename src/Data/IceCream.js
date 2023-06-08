@@ -34,5 +34,6 @@ export const flavours = [
 	},
 	{
 		name: 'Bubble ',
-	}
+	},
 ]
+export const prices = [{ medium: '150 000 L.L.' }, { Large: '200 000 L.L.' }]
