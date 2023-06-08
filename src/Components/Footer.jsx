@@ -12,11 +12,8 @@ export const Footer = ({ activePage, setActivePage }) => {
 	const [showButton, setShowButton] = useState(false)
 	const handleScroll = () => {
 		const scrollY = window.scrollY
-		const showThreshold = 400
+		const showThreshold = 500
 		setShowButton(scrollY > showThreshold)
-	}
-	const scrollToTop = () => {
-		window.scrollTo({ top: 0, behavior: 'smooth' })
 	}
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll)
@@ -25,15 +22,12 @@ export const Footer = ({ activePage, setActivePage }) => {
 		}
 	}, [])
 
+	const scrollToTop = () => {
+		window.scrollTo({ top: 0, behavior: 'smooth' })
+	}
 	const scrollToContent = () => {
 		window.scrollTo({ top: 400, behavior: 'smooth' })
 	}
-	useEffect(() => {
-		window.addEventListener('scroll', handleScroll)
-		return () => {
-			window.removeEventListener('scroll', handleScroll)
-		}
-	}, [])
 	return (
 		<>
 			<footer className='footer'>

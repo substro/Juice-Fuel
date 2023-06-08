@@ -1,23 +1,38 @@
 export const flavours = [
-  {
-    id: 1,
-    name: {
-      en: "Vanilla",
-      ar: "فانيلا",
-    },
-    sizes: [
-      {
-        name: "Small",
-        price: "1$",
-      },
-      {
-        name: "Medium",
-        price: "1.2$",
-      },
-      {
-        name: "Large",
-        price: "1.5$",
-      },
-    ],
-  },
-];
+	{
+		name: 'vanilla',
+	},
+	{
+		name: 'Lemon',
+	},
+	{
+		name: 'Mango',
+	},
+	{
+		name: 'Strawberry',
+	},
+	{
+		name: 'Oreo',
+	},
+	{
+		name: 'CheeseCake',
+	},
+	{
+		name: 'Pistachio',
+	},
+	{
+		name: 'Avocado',
+	},
+	{
+		name: 'Berries',
+	},
+	{
+		name: 'Lotus',
+	},
+	{
+		name: 'Chocolate',
+	},
+	{
+		name: 'Bubble ',
+	}
+]

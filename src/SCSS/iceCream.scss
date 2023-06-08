@@ -1,0 +1,56 @@
+.ice-cream-container {
+	h4 {
+		text-align: center;
+		color: #3670dc;
+		font-size: 0.8rem;
+		padding: 5px;
+	}
+	.sizes {
+		display: flex;
+		justify-content: center;
+	}
+	.flavours {
+		padding-inline: clamp(1rem, 3vw, 3rem);
+		padding-bottom: clamp(1rem, 3vw, 3rem);
+	}
+	.items {
+		background: white;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		padding: 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		border-radius: 10px;
+		li {
+			font-size: 0.9rem;
+			flex-basis: 1rem;
+			white-space: nowrap;
+		}
+		.name {
+			font-weight: bold;
+			font-size: 0.9rem;
+		}
+	}
+  b{
+    color:green;
+    
+  }
+
+	@media (min-width: 601px) {
+		width: clamp(50vw, 60vw, 70vw);
+		h4 {
+			font-size: clamp(1rem, 2vw, 5rem);
+			margin-block: 1rem;
+		}
+		.items {
+			flex-flow: wrap;
+			gap: clamp(2rem, 2vw, 4rem);
+			.name,
+			li {
+				font-size: clamp(1rem, 1.5vw, 3rem);
+			}
+		}
+	}
+}

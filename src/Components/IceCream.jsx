@@ -1,57 +1,40 @@
-import React from "react";
-import { IoIosIceCream } from "react-icons/io";
-import { flavours } from "../Data/IceCream";
+import React from 'react'
+import { IoIosIceCream } from 'react-icons/io'
+import { flavours } from '../Data/IceCream'
 
 export const IceCream = () => {
-  return (
-    <>
-      <div className="section-title">
-        <div className="icon">
-          <IoIosIceCream />
-        </div>
-        <h3>Arabic Ice Cream</h3>
-      </div>
-      <div className="ice-cream-container">
-        <table>
-          <thead>
-            <tr className="item size">
-              <td>
-                <h1></h1>
-              </td>
-              <td className="sizes">
-                <span>Small</span>
-                <span>Medium</span>
-                <span>Large</span>
-              </td>
-              <td>
-                <h1></h1>
-              </td>
-            </tr>
-          </thead>
+	return (
+		<>
+			<div className='section-title'>
+				<div className='icon'>
+					<IoIosIceCream />
+				</div>
+				<h3>Arabic Ice Cream</h3>
+			</div>
 
-          <tbody>
-            {flavours.map((x) => {
-              return (
-                <tr className="item" key={x.id}>
-                  <td>
-                    <h1>{x.name.en}</h1>
-                  </td>
+			<div className='ice-cream-container'>
+				<div className='sizes'>
+					<h4>Medium</h4>
+					<h4>Large</h4>
+				</div>
+				<div className='price'>
+					<p></p>
+				</div>
 
-                  <td className="prices">
-                    {x.sizes.map((y, index) => {
-                      return <span key={index}>{y.price}</span>;
-                    })}
-                  </td>
-
-                  <td>
-                    <h1>{x.name.ar}</h1>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </>
-  );
-};
+				<div className='flavours'>
+					<h4>Flavours</h4>
+					<ul className='items'>
+						{flavours.map((item, index) => (
+							<li key={index}>
+								<span className='name'>
+									{item.name}
+									<b>|</b>
+								</span>
+							</li>
+						))}
+					</ul>
+				</div>
+			</div>
+		</>
+	)
+}
