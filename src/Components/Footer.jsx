@@ -1,14 +1,9 @@
 import React from 'react'
 import { Socials } from '../Data/Socials'
-import DrinksTab from './DrinksTab'
-import { IceCream } from './IceCream'
-import { Brunch } from './Brunch'
-import { Saj } from './Saj'
 import { AiOutlineArrowUp } from 'react-icons/ai'
 import { useState, useEffect } from 'react'
-import { MainSection } from '../MainSection'
 
-export const Footer = ({ activePage, setActivePage }) => {
+export const Footer = ({ setActivePage }) => {
 	const [showButton, setShowButton] = useState(false)
 	const handleScroll = () => {
 		const scrollY = window.scrollY

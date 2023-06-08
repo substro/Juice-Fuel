@@ -3,7 +3,6 @@ import DrinksTab from './Components/DrinksTab'
 import { IceCream } from './Components/IceCream'
 import { Brunch } from './Components/Brunch'
 import { Saj } from './Components/Saj'
-import { useState } from 'react'
 
 export const MainSection = ({ activePage, setActivePage }) => {
 	return (
