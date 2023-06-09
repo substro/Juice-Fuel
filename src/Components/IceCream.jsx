@@ -16,12 +16,16 @@ export const IceCream = () => {
 				<div className='sizes'>
 					<h4>Medium</h4>
 					<h4>Large</h4>
+					{/* <h4></h4> */}
+					<h4>1 KG</h4>
 				</div>
 				<div className='price'>
 					{prices.map((item, i) => (
 						<Fragment key={i}>
 							<p>{item.medium}</p>
 							<p>{item.Large}</p>
+							<p>{item.half}</p>
+							<p>{item.one}</p>
 						</Fragment>
 					))}
 				</div>

@@ -24,7 +24,7 @@ export const flavours = [
 		name: 'Avocado',
 	},
 	{
-		name: 'Berries',
+		name: 'Berry',
 	},
 	{
 		name: 'Lotus',
@@ -35,5 +35,16 @@ export const flavours = [
 	{
 		name: 'Bubble ',
 	},
+	{
+		name: 'pineapple ',
+	},
+	{
+		name: 'sweet melon ',
+	},
+	{
+		name: 'Kinder ',
+	},
 ]
-export const prices = [{ medium: '150 000 L.L.' }, { Large: '200 000 L.L.' }]
+export const prices = [{ medium: '150 000 L.L.' }, { Large: '200 000 L.L.' }, { one: '10$' }]
+
+// export const prices2 = [{ half: '5$' }, { one: '10$' }]
