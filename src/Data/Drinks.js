@@ -427,6 +427,56 @@ export const cold = [
 	{
 		id: 18,
 		name: {
+			en: 'berry(seasonal)',
+			ar: 'توت(موسمي)',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '1.5$',
+			},
+			{
+				name: 'Medium',
+				price: '2$',
+			},
+			{
+				name: 'Large',
+				price: '2.5$',
+			},
+			{
+				name: 'Bottle',
+				price: '4$',
+			},
+		],
+	},
+	{
+		id: 19,
+		name: {
+			en: 'melon(seasonal)',
+			ar: 'شمام(موسمي)',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '1.5$',
+			},
+			{
+				name: 'Medium',
+				price: '1.8$',
+			},
+			{
+				name: 'Large',
+				price: '2$',
+			},
+			{
+				name: 'Bottle',
+				price: '3.8$',
+			},
+		],
+	},
+	{
+		id: 18,
+		name: {
 			en: 'Milkshake',
 			ar: 'ميلك شايك',
 		},
@@ -450,7 +500,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 1,
+		id: 19,
 		name: {
 			en: 'frappe',
 			ar: 'فرابيه',
@@ -467,7 +517,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 5,
+		id: 20,
 		name: {
 			en: 'Ice coffee',
 			ar: 'قهوة مثلجة',
@@ -480,10 +530,23 @@ export const cold = [
 		],
 	},
 	{
-		id: 19,
+		id: 21,
 		name: {
 			en: 'fresh frisco',
 			ar: 'فرش فريسكو',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '0.5$',
+			},
+		],
+	},
+	{
+		id: 21,
+		name: {
+			en: 'Add ginger',
+			ar: 'اضافة شمندر',
 		},
 		sizes: [
 			{

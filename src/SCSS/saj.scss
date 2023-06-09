@@ -3,7 +3,10 @@ h4 {
 }
 saj-container {
 	h1 {
-		font-size: 1rem;
+		font-size: clamp(1rem, 3vw, 1.7rem);
+	}
+	.name-ar {
+		font-size: 1.4rem;
 	}
 	.item {
 		// margin: 0;
