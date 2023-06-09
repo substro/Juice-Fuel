@@ -124,3 +124,25 @@ export const sweets = [
 		price: '1.5$',
 	},
 ]
+export const drinks = [
+	{
+		id: 1,
+		name: 'Pepsi',
+		price: '0.70$',
+	},
+	{
+		id: 2,
+		name: 'Miranda',
+		price: '0.70$',
+	},
+	{
+		id: 3,
+		name: '7-Up',
+		price: '0.70$',
+	},
+	{
+		id: 4,
+		name: 'Juice',
+		price: '0.25$',
+	},
+]

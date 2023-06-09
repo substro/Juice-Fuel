@@ -1,7 +1,7 @@
 import React from 'react'
 import { GiFullPizza } from 'react-icons/gi'
 import { schedules } from '../Data/Schedule'
-import { saj, extra, sweets } from '../Data/Saj'
+import { saj, extra, sweets, drinks } from '../Data/Saj'
 
 export const Saj = () => {
 	return (
@@ -65,6 +65,25 @@ export const Saj = () => {
 					</thead>
 					<tbody>
 						{sweets.map((x) => {
+							return (
+								<tr className='item' key={x.id}>
+									<td className='prices'>{x.price}</td>
+									<td>
+										<h1 className='name-ar'>{x.name}</h1>
+									</td>
+								</tr>
+							)
+						})}
+					</tbody>
+          <thead>
+						<tr className='item size'>
+							<td>
+								<h1>مشروبات</h1>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						{drinks.map((x) => {
 							return (
 								<tr className='item' key={x.id}>
 									<td className='prices'>{x.price}</td>
