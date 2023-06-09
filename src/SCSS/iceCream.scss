@@ -4,6 +4,7 @@
 		color: #3670dc;
 		font-size: 0.8rem;
 		padding: 5px;
+		padding-inline: clamp(15px, 50px, 20px);
 	}
 	.sizes {
 		display: flex;

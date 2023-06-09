@@ -220,7 +220,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '-',
+				price: '',
 			},
 		],
 	},
@@ -245,7 +245,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '-',
+				price: '',
 			},
 		],
 	},
@@ -295,7 +295,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '-',
+				price: '',
 			},
 		],
 	},
@@ -477,13 +477,13 @@ export const cold = [
 	{
 		id: 18,
 		name: {
-			en: 'Milkshake',
-			ar: 'ميلك شايك',
+			en: 'Milkshake(custom)',
+			ar: 'ميلك شايك(اختياري)',
 		},
 		sizes: [
 			{
 				name: 'Small',
-				price: '-',
+				price: '',
 			},
 			{
 				name: 'Medium',
@@ -495,7 +495,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '-',
+				price: '',
 			},
 		],
 	},
