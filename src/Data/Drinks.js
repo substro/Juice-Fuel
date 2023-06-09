@@ -458,11 +458,11 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '150 000 L.L.',
+				price: '1.5$',
 			},
 			{
 				name: 'Large',
-				price: '200 000 L.L.',
+				price: '2$',
 			},
 		],
 	},
@@ -475,7 +475,7 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '150 000 L.L.',
+				price: '1.5$',
 			},
 		],
 	},
@@ -485,7 +485,12 @@ export const cold = [
 			en: 'fresh frisco',
 			ar: 'فرش فريسكو',
 		},
-		sizes: [],
+		sizes: [
+			{
+				name: 'Small',
+				price: '2$',
+			},
+		],
 	},
 ]
 
@@ -499,7 +504,7 @@ export const hot = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '40 000 L.L.',
+				price: '0.5$',
 			},
 		],
 	},
@@ -512,7 +517,7 @@ export const hot = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '40 000 L.L.',
+				price: '0.5$',
 			},
 		],
 	},
@@ -525,7 +530,7 @@ export const hot = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '40 000 L.L.',
+				price: '0.5$',
 			},
 		],
 	},
@@ -538,7 +543,7 @@ export const hot = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '40 000 L.L.',
+				price: '0.5$',
 			},
 		],
 	},
