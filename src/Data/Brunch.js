@@ -51,6 +51,10 @@ export const addOns = [
 		name: 'Banana',
 		price: '0.25$',
 	},
+	{
+		name: 'Twix',
+		price: '1$',
+	},
 ]
 
 export const crepes = [
