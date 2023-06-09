@@ -475,7 +475,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 18,
+		id: 20,
 		name: {
 			en: 'Milkshake(custom)',
 			ar: 'ميلك شايك(اختياري)',
@@ -500,7 +500,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 19,
+		id: 21,
 		name: {
 			en: 'frappe',
 			ar: 'فرابيه',
@@ -517,7 +517,21 @@ export const cold = [
 		],
 	},
 	{
-		id: 20,
+		id: 22,
+		name: {
+			en: 'blue hawaii',
+			ar: 'بلو هاواي',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '1.3$',
+			},
+		],
+	},
+
+	{
+		id: 23,
 		name: {
 			en: 'Ice coffee',
 			ar: 'قهوة مثلجة',
@@ -530,7 +544,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 21,
+		id: 24,
 		name: {
 			en: 'fresh frisco',
 			ar: 'فرش فريسكو',
@@ -538,12 +552,12 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '0.5$',
+				price: '2$',
 			},
 		],
 	},
 	{
-		id: 21,
+		id: 25,
 		name: {
 			en: 'Add ginger',
 			ar: 'اضافة شمندر',
@@ -551,7 +565,7 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '2$',
+				price: '0.5$',
 			},
 		],
 	},
