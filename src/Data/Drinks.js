@@ -450,6 +450,36 @@ export const cold = [
 		],
 	},
 	{
+		id: 1,
+		name: {
+			en: 'frappe',
+			ar: 'فرابيه',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '150 000 L.L.',
+			},
+			{
+				name: 'Large',
+				price: '200 000 L.L.',
+			},
+		],
+	},
+	{
+		id: 5,
+		name: {
+			en: 'Ice coffee',
+			ar: 'قهوة مثلجة',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '150 000 L.L.',
+			},
+		],
+	},
+	{
 		id: 19,
 		name: {
 			en: 'fresh frisco',
@@ -504,19 +534,6 @@ export const hot = [
 		name: {
 			en: 'Sahlab',
 			ar: 'سحلب',
-		},
-		sizes: [
-			{
-				name: 'Small',
-				price: '40 000 L.L.',
-			},
-		],
-	},
-	{
-		id: 5,
-		name: {
-			en: 'Ice coffee',
-			ar: 'قهوة مثلجة',
 		},
 		sizes: [
 			{
