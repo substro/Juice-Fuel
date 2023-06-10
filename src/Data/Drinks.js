@@ -559,7 +559,7 @@ export const cold = [
 	{
 		id: 25,
 		name: {
-			en: 'Add ginger',
+			en: '+ Add ginger',
 			ar: 'اضافة شمندر',
 		},
 		sizes: [
