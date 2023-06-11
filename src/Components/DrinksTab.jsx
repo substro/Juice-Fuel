@@ -1,12 +1,12 @@
 import React from 'react'
 import { Cold } from './Cold'
-import { Hot } from './Hot'
+import { Coffee } from './Coffee'
 
 const DrinksTab = () => {
 	return (
 		<>
 			<Cold />
-			<Hot />
+			<Coffee />
 		</>
 	)
 }

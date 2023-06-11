@@ -1,21 +1,21 @@
 import React from 'react'
 import { LuCoffee } from 'react-icons/lu'
-import { hot } from '../Data/Drinks'
+import { coffeeData } from '../Data/Drinks'
 
-export const Hot = () => {
+export const Coffee = () => {
 	return (
-		<div className='drink-container-hot'>
+		<div className='drink-container-coffee'>
 			<div className='section-title'>
 				<div className='icon'>
 					<LuCoffee />
 				</div>
 				<h3>Drinks</h3>
 				<div className='ball'></div>
-				<h4>Hot</h4>
+				<h4>coffee</h4>
 			</div>
 			<table>
 				<tbody>
-					{hot.map((x) => {
+					{coffeeData.map((x) => {
 						return (
 							<tr className='item' key={x.id}>
 								<td>

@@ -499,8 +499,52 @@ export const cold = [
 			},
 		],
 	},
+
 	{
 		id: 21,
+		name: {
+			en: 'blue hawaii',
+			ar: 'بلو هاواي',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '1.3$',
+			},
+		],
+	},
+
+	{
+		id: 22,
+		name: {
+			en: 'fresh frisco',
+			ar: 'فرش فريسكو',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '2$',
+			},
+		],
+	},
+	{
+		id: 23,
+		name: {
+			en: '+ Add ginger',
+			ar: 'اضافة زنجبيل',
+		},
+		sizes: [
+			{
+				name: 'Small',
+				price: '0.5$',
+			},
+		],
+	},
+]
+
+export const coffeeData = [
+	{
+		id: 1,
 		name: {
 			en: 'frappe',
 			ar: 'فرابيه',
@@ -517,21 +561,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 22,
-		name: {
-			en: 'blue hawaii',
-			ar: 'بلو هاواي',
-		},
-		sizes: [
-			{
-				name: 'Small',
-				price: '1.3$',
-			},
-		],
-	},
-
-	{
-		id: 23,
+		id: 2,
 		name: {
 			en: 'Ice coffee',
 			ar: 'قهوة مثلجة',
@@ -544,36 +574,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 24,
-		name: {
-			en: 'fresh frisco',
-			ar: 'فرش فريسكو',
-		},
-		sizes: [
-			{
-				name: 'Small',
-				price: '2$',
-			},
-		],
-	},
-	{
-		id: 25,
-		name: {
-			en: '+ Add ginger',
-			ar: 'اضافة شمندر',
-		},
-		sizes: [
-			{
-				name: 'Small',
-				price: '0.5$',
-			},
-		],
-	},
-]
-
-export const hot = [
-	{
-		id: 1,
+		id: 3,
 		name: {
 			en: 'Cappuccino',
 			ar: 'كابتشينو',
@@ -586,7 +587,7 @@ export const hot = [
 		],
 	},
 	{
-		id: 2,
+		id: 4,
 		name: {
 			en: 'espresso',
 			ar: 'إسبرسو',
@@ -599,7 +600,7 @@ export const hot = [
 		],
 	},
 	{
-		id: 3,
+		id: 5,
 		name: {
 			en: 'Nescafe',
 			ar: 'نسكافيه',
@@ -612,7 +613,7 @@ export const hot = [
 		],
 	},
 	{
-		id: 4,
+		id: 6,
 		name: {
 			en: 'Sahlab',
 			ar: 'سحلب',
