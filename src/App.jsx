@@ -1,11 +1,11 @@
-import { Footer } from './Components/Footer'
-import { MainSection } from './MainSection'
-import { Header } from './Components/Header'
-import { Fruits } from './Components/Fruits'
-import { useState } from 'react'
+import { useState } from 'react';
+import { Footer } from './Components/Footer';
+import { Fruits } from './Components/Fruits';
+import { Header } from './Components/Header';
+import { MainSection } from './MainSection';
 
 function App() {
-	const [activePage, setActivePage] = useState('Drinks')
+	const [activePage, setActivePage] = useState('Drinks');
 	return (
 		<>
 			<Fruits />
@@ -13,7 +13,7 @@ function App() {
 			<MainSection activePage={activePage} setActivePage={setActivePage} />
 			<Footer activePage={activePage} setActivePage={setActivePage} />
 		</>
-	)
+	);
 }
 
-export default App
+export default App;

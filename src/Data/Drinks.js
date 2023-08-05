@@ -8,7 +8,7 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '1.0$',
 			},
 			{
 				name: 'Medium',
@@ -20,7 +20,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '2$',
+				price: '2.0$',
 			},
 		],
 	},
@@ -33,19 +33,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
-			},
-			{
-				name: 'Medium',
 				price: '1.2$',
 			},
 			{
+				name: 'Medium',
+				price: '1.7$',
+			},
+			{
 				name: 'Large',
-				price: '1.5$',
+				price: '2.2$',
 			},
 			{
 				name: 'Bottle',
-				price: '2$',
+				price: '3.0$',
 			},
 		],
 	},
@@ -58,19 +58,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '1.0$',
 			},
 			{
 				name: 'Medium',
-				price: '1.2$',
-			},
-			{
-				name: 'Large',
 				price: '1.5$',
 			},
 			{
+				name: 'Large',
+				price: '2.0$',
+			},
+			{
 				name: 'Bottle',
-				price: '2.5$',
+				price: '3.0$',
 			},
 		],
 	},
@@ -83,19 +83,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '1.0$',
 			},
 			{
 				name: 'Medium',
-				price: '1.2$',
-			},
-			{
-				name: 'Large',
 				price: '1.5$',
 			},
 			{
+				name: 'Large',
+				price: '2.0$',
+			},
+			{
 				name: 'Bottle',
-				price: '2.5$',
+				price: '3.0$',
 			},
 		],
 	},
@@ -112,15 +112,15 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '1.2$',
-			},
-			{
-				name: 'Large',
 				price: '1.5$',
 			},
 			{
+				name: 'Large',
+				price: '2.0$',
+			},
+			{
 				name: 'Bottle',
-				price: '2$',
+				price: '3$',
 			},
 		],
 	},
@@ -133,19 +133,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '1.0$',
 			},
 			{
 				name: 'Medium',
-				price: '1.2$',
-			},
-			{
-				name: 'Large',
 				price: '1.5$',
 			},
 			{
+				name: 'Large',
+				price: '2.0$',
+			},
+			{
 				name: 'Bottle',
-				price: '2$',
+				price: '3.0$',
 			},
 		],
 	},
@@ -162,15 +162,15 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '1.8$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
-				price: '2$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
-				price: '3.8$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -187,11 +187,11 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '1.8$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
-				price: '2$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
@@ -208,15 +208,15 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '2$',
+				price: '4$',
 			},
 			{
 				name: 'Medium',
-				price: '3$',
+				price: '5$',
 			},
 			{
 				name: 'Large',
-				price: '4$',
+				price: '7$',
 			},
 			{
 				name: 'Bottle',
@@ -233,15 +233,15 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '2.5$',
+				price: '4.0$',
 			},
 			{
 				name: 'Medium',
-				price: '3$',
+				price: '5.0$',
 			},
 			{
 				name: 'Large',
-				price: '4$',
+				price: '8.0$',
 			},
 			{
 				name: 'Bottle',
@@ -262,15 +262,15 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '1.8$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
-				price: '2$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
-				price: '3.8$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -287,11 +287,11 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '2.5$',
+				price: '3.0$',
 			},
 			{
 				name: 'Large',
-				price: '3$',
+				price: '4.0$',
 			},
 			{
 				name: 'Bottle',
@@ -316,11 +316,11 @@ export const cold = [
 			},
 			{
 				name: 'Large',
-				price: '2.5$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
-				price: '3$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -337,15 +337,15 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '2$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
-				price: '2.5$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
-				price: '3$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -358,19 +358,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
-			},
-			{
-				name: 'Medium',
 				price: '1.5$',
 			},
 			{
+				name: 'Medium',
+				price: '2.0$',
+			},
+			{
 				name: 'Large',
-				price: '2$',
+				price: '2.5$',
 			},
 			{
 				name: 'Bottle',
-				price: '3$',
+				price: '3.0$',
 			},
 		],
 	},
@@ -383,19 +383,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
-			},
-			{
-				name: 'Medium',
 				price: '1.5$',
 			},
 			{
+				name: 'Medium',
+				price: '2.0$',
+			},
+			{
 				name: 'Large',
-				price: '2$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
-				price: '3$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -408,19 +408,19 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
-			},
-			{
-				name: 'Medium',
 				price: '1.5$',
 			},
 			{
+				name: 'Medium',
+				price: '2.0$',
+			},
+			{
 				name: 'Large',
-				price: '2$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
-				price: '3$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -540,7 +540,7 @@ export const cold = [
 			},
 		],
 	},
-]
+];
 
 export const coffeeData = [
 	{
@@ -625,4 +625,4 @@ export const coffeeData = [
 			},
 		],
 	},
-]
+];
