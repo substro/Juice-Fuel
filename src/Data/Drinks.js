@@ -12,7 +12,7 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '1.2$',
+				price: '1.2.0$',
 			},
 			{
 				name: 'Large',
@@ -41,7 +41,7 @@ export const cold = [
 			},
 			{
 				name: 'Large',
-				price: '2.2$',
+				price: '2.2.0$',
 			},
 			{
 				name: 'Bottle',
@@ -108,7 +108,7 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '1$',
+				price: '1.0$',
 			},
 			{
 				name: 'Medium',
@@ -120,7 +120,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '3$',
+				price: '3.0$',
 			},
 		],
 	},
@@ -195,7 +195,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '4$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -208,15 +208,15 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '4$',
+				price: '4.0$',
 			},
 			{
 				name: 'Medium',
-				price: '5$',
+				price: '5.0$',
 			},
 			{
 				name: 'Large',
-				price: '7$',
+				price: '7.0$',
 			},
 			{
 				name: 'Bottle',
@@ -283,7 +283,7 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '2$',
+				price: '2.0$',
 			},
 			{
 				name: 'Medium',
@@ -312,7 +312,7 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '2$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
@@ -437,7 +437,7 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '2$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
@@ -445,7 +445,7 @@ export const cold = [
 			},
 			{
 				name: 'Bottle',
-				price: '4$',
+				price: '4.0$',
 			},
 		],
 	},
@@ -466,7 +466,7 @@ export const cold = [
 			},
 			{
 				name: 'Large',
-				price: '2$',
+				price: '2.0$',
 			},
 			{
 				name: 'Bottle',
@@ -487,11 +487,11 @@ export const cold = [
 			},
 			{
 				name: 'Medium',
-				price: '2$',
+				price: '2.0$',
 			},
 			{
 				name: 'Large',
-				price: '3$',
+				price: '3.0$',
 			},
 			{
 				name: 'Bottle',
@@ -523,7 +523,7 @@ export const cold = [
 		sizes: [
 			{
 				name: 'Small',
-				price: '2$',
+				price: '2.0$',
 			},
 		],
 	},
@@ -556,7 +556,7 @@ export const coffeeData = [
 			},
 			{
 				name: 'Large',
-				price: '2$',
+				price: '2.0$',
 			},
 		],
 	},

@@ -32,22 +32,22 @@ export const saj = [
 	{
 		id: 7,
 		name: 'جبنة و سجق',
-		price: '2$',
+		price: '2.0$',
 	},
 	{
 		id: 8,
 		name: '٣ انواع جبنة',
-		price: '2$',
+		price: '2.0$',
 	},
 	{
 		id: 9,
 		name: 'جبنة و حبش مدخن',
-		price: '2$',
+		price: '2.0$',
 	},
 	{
 		id: 10,
 		name: 'كشك',
-		price: '1$',
+		price: '1.0$',
 	},
 	{
 		id: 11,
@@ -62,12 +62,12 @@ export const saj = [
 	{
 		id: 13,
 		name: 'لبنة مع خضرة',
-		price: '1$',
+		price: '1.0$',
 	},
 	{
 		id: 14,
 		name: 'زعتر مع خضرة',
-		price: '1$',
+		price: '1.0$',
 	},
 	{
 		id: 15,
@@ -79,12 +79,12 @@ export const saj = [
 		name: 'صاج سبيشل',
 		price: '2.5$',
 	},
-]
+];
 export const extra = [
 	{
 		id: 1,
 		name: 'مارغو صاج',
-		price: '2$',
+		price: '2.0$',
 	},
 	{
 		id: 2,
@@ -94,9 +94,9 @@ export const extra = [
 	{
 		id: 10,
 		name: 'صحن خضرا',
-		price: '2$',
+		price: '2.0$',
 	},
-]
+];
 export const sweets = [
 	{
 		id: 1,
@@ -116,14 +116,14 @@ export const sweets = [
 	{
 		id: 4,
 		name: 'نوتيلا، لوتس، موز',
-		price: '3$',
+		price: '3.0$',
 	},
 	{
 		id: 5,
 		name: 'قشطة و عسل',
 		price: '2.5$',
 	},
-]
+];
 export const drinks = [
 	{
 		id: 1,
@@ -145,4 +145,4 @@ export const drinks = [
 		name: 'Juice',
 		price: '0.25$',
 	},
-]
+];
