@@ -536,7 +536,7 @@ export const cold = [
 		sizes: [
 			{
 				name: "Small",
-				price: "0.5$",
+				price: "1.0$",
 			},
 		],
 	},
