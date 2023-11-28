@@ -79,20 +79,20 @@ export const saj = [
 		name: "جبنة و بسطرمة",
 		price: "3.0$",
 	},
+	{
+		id: 17,
+		name: " ميكس صاج",
+		price: "3.0$",
+	},
 ];
 export const extra = [
 	{
 		id: 1,
-		name: " ميكس صاج",
-		price: "3.0$",
-	},
-	{
-		id: 2,
 		name: "صحن لبنة",
 		price: "1.5$",
 	},
 	{
-		id: 10,
+		id: 2,
 		name: "صحن خضرا",
 		price: "2.0$",
 	},
