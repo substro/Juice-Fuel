@@ -625,4 +625,17 @@ export const coffeeData = [
 			},
 		],
 	},
+	{
+		id: 6,
+		name: {
+			en: "Sahlab special",
+			ar: "سحلب سبيشيل",
+		},
+		sizes: [
+			{
+				name: "Small",
+				price: "1.5$",
+			},
+		],
+	},
 ];
