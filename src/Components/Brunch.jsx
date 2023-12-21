@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { MdBrunchDining } from "react-icons/md";
-import { addOns, crepes, waffles } from "../Data/Brunch";
+import { addOns, crepes, qashta, waffles } from "../Data/Brunch";
 
 export const Brunch = () => {
 	// const [Brunch, setAllMenu] = useState();
@@ -54,9 +54,16 @@ export const Brunch = () => {
 						{waffles.map((item, index) => (
 							<li key={index}>
 								<span className="name">{item.name}</span> : {item.price}{" "}
-								<span className="name">
-									{item.extra && `- Extra: ${item.extra}`}
-								</span>
+							</li>
+						))}
+					</ul>
+				</div>{" "}
+				<div className="brunch">
+					<h4>قشطة</h4>
+					<ul className="items">
+						{qashta.map((item, index) => (
+							<li key={index}>
+								<span className="name">{item.name}</span> : {item.price}{" "}
 							</li>
 						))}
 					</ul>
