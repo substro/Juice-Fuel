@@ -33,7 +33,7 @@ export const addOns = [
 	},
 	{
 		name: "Lotus Biscuit",
-		price: "0$",
+		price: "0.5$",
 	},
 	{
 		name: "Digestive",
