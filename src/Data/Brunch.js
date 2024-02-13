@@ -75,14 +75,18 @@ export const crepes = [
 	},
 	{
 		name: "Juice Fuel Crepe Roll",
-		price: "4.5$",
+		price: "5.0$",
 	},
 ];
 
 export const waffles = [
 	{
 		name: "Chocolate & Fruits",
-		price: "4.5$",
+		price: "5.0$",
+	},
+	{
+		name: "Fettuccine",
+		price: "5.0$",
 	},
 ];
 export const qashta = [

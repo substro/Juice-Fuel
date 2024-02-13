@@ -45,6 +45,11 @@ export const saj = [
 		price: "2.0$",
 	},
 	{
+		id: 9,
+		name: "جبنة و بيبيروني",
+		price: "2.5$",
+	},
+	{
 		id: 10,
 		name: "كشك",
 		price: "1.0$",
@@ -101,7 +106,7 @@ export const sweets = [
 	{
 		id: 1,
 		name: "بوك",
-		price: "1.25$",
+		price: "1.5$",
 	},
 	{
 		id: 2,
@@ -116,7 +121,7 @@ export const sweets = [
 	{
 		id: 4,
 		name: "نوتيلا، لوتس، موز",
-		price: "3.0$",
+		price: "3.5$",
 	},
 	{
 		id: 5,
