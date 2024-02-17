@@ -60,17 +60,17 @@ export const addOns = [
 export const crepes = [
 	{
 		name: "Nutella",
-		price: "2.5$",
+		price: "3.0$",
 		extra: "1.0$",
 	},
 	{
 		name: "Kinder",
-		price: "2.5$",
+		price: "3.0$",
 		extra: "1.0$",
 	},
 	{
 		name: "Lotus",
-		price: "2.5$",
+		price: "3.0$",
 		extra: "1.0$",
 	},
 	{
