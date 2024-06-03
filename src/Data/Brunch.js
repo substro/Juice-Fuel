@@ -91,7 +91,13 @@ export const waffles = [
 ];
 export const qashta = [
 	{
-		name: "صحن قشطة",
+		name: "صحن قشطة صغير",
 		price: "$5.00",
+
+		name: "صحن قشطة وسط",
+		price: "$7.00",
+
+		name: "صحن قشطة كبير",
+		price: "$10.00",
 	},
 ];
