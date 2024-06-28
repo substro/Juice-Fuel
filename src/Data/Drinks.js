@@ -503,13 +503,39 @@ export const cold = [
 	{
 		id: 21,
 		name: {
-			en: "blue hawaii",
+			en: "Blue Hawaii",
 			ar: "بلو هاواي",
 		},
 		sizes: [
 			{
 				name: "Small",
 				price: "2.0$",
+			},
+		],
+	},
+	{
+		id: 21,
+		name: {
+			en: "Red Mojito",
+			ar: "ريد موهيتو",
+		},
+		sizes: [
+			{
+				name: "Large",
+				price: "3.0$",
+			},
+		],
+	},
+	{
+		id: 21,
+		name: {
+			en: "Blue Mojito",
+			ar: "بلو موهيتو",
+		},
+		sizes: [
+			{
+				name: "Large",
+				price: "3.0$",
 			},
 		],
 	},
@@ -546,70 +572,31 @@ export const coffeeData = [
 	{
 		id: 1,
 		name: {
-			en: "frappe",
-			ar: "فرابيه",
+			en: "Mocha Milkshake",
+			ar: "ميلك شيك موكا",
 		},
 		sizes: [
 			{
 				name: "Large",
-				price: "2.0$",
+				price: "4.0$",
 			},
 		],
 	},
 	{
 		id: 2,
 		name: {
-			en: "Ice coffee",
-			ar: "قهوة مثلجة",
+			en: "Tea",
+			ar: "شاي",
 		},
 		sizes: [
 			{
 				name: "Small",
-				price: "1.5$",
+				price: "0.5$",
 			},
 		],
 	},
 	{
 		id: 3,
-		name: {
-			en: "Cappuccino",
-			ar: "كابتشينو",
-		},
-		sizes: [
-			{
-				name: "Small",
-				price: "0.5$",
-			},
-		],
-	},
-	{
-		id: 4,
-		name: {
-			en: "espresso",
-			ar: "إسبرسو",
-		},
-		sizes: [
-			{
-				name: "Small",
-				price: "0.5$",
-			},
-		],
-	},
-	{
-		id: 5,
-		name: {
-			en: "Nescafe",
-			ar: "نسكافيه",
-		},
-		sizes: [
-			{
-				name: "Small",
-				price: "0.5$",
-			},
-		],
-	},
-	{
-		id: 6,
 		name: {
 			en: "Sahlab",
 			ar: "سحلب",
@@ -622,7 +609,7 @@ export const coffeeData = [
 		],
 	},
 	{
-		id: 6,
+		id: 4,
 		name: {
 			en: "Sahlab special",
 			ar: "سحلب سبيشيل",
