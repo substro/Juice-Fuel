@@ -1,32 +1,8 @@
 export const cold = [
 	{
-		id: 1,
-		name: {
-			en: "Sugar Cane",
-			ar: "قصب السكر",
-		},
-		sizes: [
-			{
-				name: "Small",
-				price: "1.5$",
-			},
-			{
-				name: "Medium",
-				price: "2.0$",
-			},
-			{
-				name: "Large",
-				price: "2.5$",
-			},
-			{
-				name: "Bottle",
-				price: "4.0$",
-			},
-		],
-	},
-	{
 		id: 2,
-		name: {
+		name: 
+		{
 			en: "Orange",
 			ar: "ليمون",
 		},
@@ -70,7 +46,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "4.0$",
+				price: "5.0$",
 			},
 		],
 	},
@@ -95,7 +71,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "4.0$",
+				price: "5.0$",
 			},
 		],
 	},
@@ -145,7 +121,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "4.0$",
+				price: "6.0$",
 			},
 		],
 	},
@@ -195,7 +171,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "5.0$",
+				price: "6.0$",
 			},
 		],
 	},
@@ -270,7 +246,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "5.0$",
+				price: "6.0$",
 			},
 		],
 	},
@@ -283,15 +259,15 @@ export const cold = [
 		sizes: [
 			{
 				name: "Small",
-				price: "2.0$",
-			},
-			{
-				name: "Medium",
 				price: "3.0$",
 			},
 			{
+				name: "Medium",
+				price: "4.0$",
+			},
+			{
 				name: "Large",
-				price: "5.0$",
+				price: "6.0$",
 			},
 			{
 				name: "Bottle",
@@ -370,7 +346,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "4.0$",
+				price: "5.0$",
 			},
 		],
 	},
@@ -445,7 +421,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "5.0$",
+				price: "6.0$",
 			},
 		],
 	},
@@ -487,11 +463,11 @@ export const cold = [
 			},
 			{
 				name: "Medium",
-				price: "3.0$",
+				price: "",
 			},
 			{
 				name: "Large",
-				price: "4.0$",
+				price: "5.0$",
 			},
 			{
 				name: "Bottle",
@@ -509,7 +485,7 @@ export const cold = [
 		sizes: [
 			{
 				name: "Small",
-				price: "2.0$",
+				price: "3.0$",
 			},
 		],
 	},
@@ -578,7 +554,7 @@ export const coffeeData = [
 		sizes: [
 			{
 				name: "Large",
-				price: "4.0$",
+				price: "5.0$",
 			},
 		],
 	},
@@ -604,21 +580,9 @@ export const coffeeData = [
 		sizes: [
 			{
 				name: "Small",
-				price: "1$",
+				price: "2$",
 			},
 		],
 	},
-	{
-		id: 4,
-		name: {
-			en: "Sahlab special",
-			ar: "سحلب سبيشيل",
-		},
-		sizes: [
-			{
-				name: "Small",
-				price: "1.5$",
-			},
-		],
-	},
+
 ];
