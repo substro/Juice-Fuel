@@ -123,3 +123,23 @@ export const qashta = [
 	},
 	
 ];
+
+export const cups = [
+	{
+		name: "Brownie",
+		price: "$4.00",
+	},
+	{
+
+		name: "Pistachio",
+		price: "$4.00",
+	
+	},
+	{
+
+		name: "Qashta",
+		price: "$4.00",
+	
+	},
+	
+];
