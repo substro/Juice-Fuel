@@ -71,11 +71,11 @@ export const cold = [
 		sizes: [
 			{
 				name: "Medium",
-				price: "3.0$",
+				price: "2.0$",
 			},
 			{
 				name: "Large",
-				price: "4.0$",
+				price: "3.0$",
 			},
 			{
 				name: "Bottle",
