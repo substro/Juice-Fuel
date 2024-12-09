@@ -1,58 +1,137 @@
 export const addOns = [
 	{
 		name: "Brownie",
-		price: "",
+		
 	},
 	{
 		name: "Crunch",
-		price: "",
+		
 	},
 	{
 		name: "Milka",
-		price: "",
+		
 	},
 	{
 		name: "Peanut Butter",
-		price: "",
-	},
+			},
 	{
 		name: "Oreo",
-		price: "",
-	},
+			},
 	{
 		name: "Galaxy",
-		price: "",
+		
 	},
 	{
 		name: "Kitkat",
-		price: "",
+		
 	},
 	{
 		name: "Mozzarella",
-		price: "",
-	},
+			},
 	{
 		name: "Lotus Biscuit",
-		price: "",
-	},
+			},
 	{
 		name: "Digestive",
-		price: "",
-	},
+			},
 	{
 		name: "Strawberry",
-		price: "",
-	},
+			},
 	{
 		name: "Kiwi",
-		price: "",
-	},
+			},
 	{
-		name: "Banana",
-		price: "",
+		name: "Banana",	
 	},
 	{
 		name: "Twix",
-		price: "",
 	},
+];
+
+
+export const crepes = [
+	{
+		name: "Nutella",
+		price: "4.0$",
+		extra: "1.0$",
+	},
+	{
+		name: "Kinder",
+		price: "4.0$",
+		extra: "1.0$",
+	},
+	{
+		name: "Lotus",
+		price: "4.0$",
+		extra: "1.0$",
+	},
+	{
+		name: "Fettuccine",
+		price: "5.0$",
+	},
+	{
+		name: "Dark/White chocolate",
+		price: "4.0$",
+		extra: "1.0$",
+	},
+	{
+		name: "Pistachio Mix",
+		price: "5.0$",
+		extra: "1.0$",
+	},
+	{
+		name: "Special Combo Crépe",
+		price: "7.0$",
+		extra: "1.0$",
+	},
+	{
+		name: "Juice Fuel Crepe Roll",
+		price: "8.0$",
+	},
+];
+
+export const waffles = [
+	{
+		name: "Chocolate & Fruits",
+		price: "5.0$",
+	},
+];
+export const qashta = [
+	{
+		name: "Qashta pltate Medium",
+		price: "$10.00",
+	},
+	{
+
+		name: "Qashta Plate Large",
+		price: "$15.00",
+	
+	},
+	{
+
+		name: "Brownie Plate",
+		price: "$7.00",
+	
+	},
+	
+];
+
+export const cups = [
+	{
+		name: "Brownie",
+		price: "$4.00",
+	},
+	{
+
+		name: "Pistachio",
+		price: "$4.00",
+	
+	},
+	{
+
+		name: "Qashta",
+		price: "$4.00",
+	
+	},
+	
 ];
