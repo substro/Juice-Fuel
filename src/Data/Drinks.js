@@ -241,10 +241,6 @@ export const cold = [
 				name: "Large",
 				price: "4.0$",
 			},
-			{
-				name: "Bottle",
-				price: "6.0$",
-			},
 		],
 	},
 	{
@@ -261,10 +257,6 @@ export const cold = [
 			{
 				name: "Large",
 				price: "4.0$",
-			},
-			{
-				name: "Bottle",
-				price: "6.0$",
 			},
 		],
 	},
@@ -382,7 +374,7 @@ export const cold = [
 		sizes: [
 			{
 				name: "Large",
-				price: "4.0$",
+				price: "5.0$",
 			},
 		],
 	},
@@ -393,35 +385,13 @@ export const cold = [
 			en: "Blue Hawaii",
 			ar: "بلو هاواي",
 		},
-		sizes: [],
-	},
-	{
-		id: 21,
-		name: {
-			en: "Red Mojito",
-			ar: "ريد موهيتو",
-		},
 		sizes: [
 			{
 				name: "Large",
-				price: "4.0$",
+				price: "3.0$",
 			},
 		],
 	},
-	{
-		id: 21,
-		name: {
-			en: "Blue Mojito",
-			ar: "بلو موهيتو",
-		},
-		sizes: [
-			{
-				name: "Large",
-				price: "4.0$",
-			},
-		],
-	},
-
 	{
 		id: 22,
 		name: {
