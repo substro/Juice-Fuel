@@ -73,7 +73,7 @@ export const Brunch = () => {
 					<ul className="items">
 						{addOns.map((item, index) => (
 							<li key={index}>
-								<span className="name">{item.name}</span> : {item.price}
+								<span className="name">{item.name}</span>
 							</li>
 						))}
 					</ul>
