@@ -69,7 +69,7 @@ export const Brunch = () => {
 					</ul>
 				</div>
 				<div className="add-ons">
-					<h4>Add-ons</h4>
+					<h4>Add-ons($1 each)</h4>
 					<ul className="items">
 						{addOns.map((item, index) => (
 							<li key={index}>
