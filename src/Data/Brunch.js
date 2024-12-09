@@ -41,14 +41,9 @@ export const addOns = [
 		name: "Kiwi",
 			},
 	{
-		name: "Banana",
-		
+		name: "Banana",	
 	},
 	{
 		name: "Twix",
-			},
-	{
-		name: "",
-    price: "1.0$"
-			},
+	},
 ];
