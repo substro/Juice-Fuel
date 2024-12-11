@@ -130,7 +130,7 @@ export const cups = [
 	{
 
 		name: "Qashta",
-		price: "$4.00",
+		price: "$5.00",
 	
 	},
 	
