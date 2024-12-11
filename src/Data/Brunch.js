@@ -119,12 +119,12 @@ export const qashta = [
 export const cups = [
 	{
 		name: "Brownie",
-		price: "$4.00",
+		price: "$5.00",
 	},
 	{
 
 		name: "Pistachio",
-		price: "$4.00",
+		price: "$5.00",
 	
 	},
 	{
