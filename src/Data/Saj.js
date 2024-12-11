@@ -2,7 +2,7 @@ export const saj = [
 	{
 		id: 1,
 		name: "بقعة",
-		price: "0.25$",
+		price: "0.35$",
 	},
 	{
 		id: 2,
