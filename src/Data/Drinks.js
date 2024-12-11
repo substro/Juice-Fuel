@@ -1,6 +1,6 @@
 export const cold = [
 	{
-		id: 2,
+		id: 1,
 		name: {
 			en: "Orange",
 			ar: "ليمون",
@@ -21,7 +21,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 3,
+		id: 2,
 		name: {
 			en: "Apple",
 			ar: "تفاح",
@@ -42,7 +42,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 4,
+		id: 3,
 		name: {
 			en: "Carrot",
 			ar: "جزر",
@@ -63,7 +63,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 5,
+		id: 4,
 		name: {
 			en: "Lemonade",
 			ar: "ليموناضة",
@@ -84,7 +84,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 6,
+		id: 5,
 		name: {
 			en: "Grape Fruit",
 			ar: "غريب فروت",
@@ -105,7 +105,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 7,
+		id: 6,
 		name: {
 			en: "Strawberry",
 			ar: "فريز",
@@ -126,7 +126,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 8,
+		id: 7,
 		name: {
 			en: "Mango",
 			ar: "مانغا",
@@ -147,41 +147,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 9,
-		name: {
-			en: "Avocado",
-			ar: "افوكادو",
-		},
-		sizes: [
-			{
-				name: "Medium",
-				price: "5.0$",
-			},
-			{
-				name: "Large",
-				price: "8.0$",
-			},
-		],
-	},
-	{
-		id: 10,
-		name: {
-			en: "Tasty Avocado",
-			ar: "تايستي افوكادو",
-		},
-		sizes: [
-			{
-				name: "Medium",
-				price: "7.0$",
-			},
-			{
-				name: "Large",
-				price: "10.0$",
-			},
-		],
-	},
-	{
-		id: 11,
+		id: 8,
 		name: {
 			en: "Cocktail(juice)",
 			ar: "(عصير)كوكتيل",
@@ -202,7 +168,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 12,
+		id: 9,
 		name: {
 			en: "Cocktail(diced)",
 			ar: "(شقف)كوكتيل",
@@ -223,41 +189,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 13,
-		name: {
-			en: "Energy Drink",
-			ar: "كوكتيل التمر",
-		},
-		sizes: [
-			{
-				name: "Medium",
-				price: "3.0$",
-			},
-			{
-				name: "Large",
-				price: "4.0$",
-			},
-		],
-	},
-	{
-		id: 14,
-		name: {
-			en: "Power Drink",
-			ar: "كوكتيل بالشوفان",
-		},
-		sizes: [
-			{
-				name: "Medium",
-				price: "3.0$",
-			},
-			{
-				name: "Large",
-				price: "4.0$",
-			},
-		],
-	},
-	{
-		id: 15,
+		id: 10,
 		name: {
 			en: "Red Sunrise",
 			ar: "شمندر، جزر، تفاح",
@@ -278,7 +210,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 16,
+		id: 11,
 		name: {
 			en: "Hummer juice",
 			ar: "زنجبيل، جزر، تفاح",
@@ -299,7 +231,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 17,
+		id: 12,
 		name: {
 			en: "Tahiti Squeeze",
 			ar: "ليمون ،فريز، تفاح",
@@ -320,7 +252,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 18,
+		id: 13,
 		name: {
 			en: "berry(seasonal)",
 			ar: "توت(موسمي)",
@@ -341,7 +273,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 19,
+		id: 14,
 		name: {
 			en: "melon(seasonal)",
 			ar: "شمام(موسمي)",
@@ -362,7 +294,75 @@ export const cold = [
 		],
 	},
 	{
-		id: 20,
+		id: 15,
+		name: {
+			en: "Avocado",
+			ar: "افوكادو",
+		},
+		sizes: [
+			{
+				name: "Medium",
+				price: "5.0$",
+			},
+			{
+				name: "Large",
+				price: "8.0$",
+			},
+		],
+	},
+	{
+		id: 16,
+		name: {
+			en: "Tasty Avocado",
+			ar: "تايستي افوكادو",
+		},
+		sizes: [
+			{
+				name: "Medium",
+				price: "7.0$",
+			},
+			{
+				name: "Large",
+				price: "10.0$",
+			},
+		],
+	},
+	{
+		id: 17,
+		name: {
+			en: "Energy Drink",
+			ar: "كوكتيل التمر",
+		},
+		sizes: [
+			{
+				name: "Medium",
+				price: "3.0$",
+			},
+			{
+				name: "Large",
+				price: "4.0$",
+			},
+		],
+	},
+	{
+		id: 18,
+		name: {
+			en: "Power Drink",
+			ar: "كوكتيل بالشوفان",
+		},
+		sizes: [
+			{
+				name: "Medium",
+				price: "3.0$",
+			},
+			{
+				name: "Large",
+				price: "4.0$",
+			},
+		],
+	},
+	{
+		id: 19,
 		name: {
 			en: "Milkshake(custom)",
 			ar: "ميلك شايك(اختياري)",
@@ -376,7 +376,7 @@ export const cold = [
 	},
 
 	{
-		id: 21,
+		id: 20,
 		name: {
 			en: "Blue Hawaii",
 			ar: "بلو هاواي",
@@ -389,7 +389,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 22,
+		id: 21,
 		name: {
 			en: "fresh frisco",
 			ar: "فرش فريسكو",
@@ -402,7 +402,7 @@ export const cold = [
 		],
 	},
 	{
-		id: 23,
+		id: 22,
 		name: {
 			en: "+ Add ginger",
 			ar: "اضافة زنجبيل",
