@@ -89,6 +89,11 @@ export const saj = [
 		name: " ميكس صاج",
 		price: "3.5$",
 	},
+	{
+		id: 1,
+		name: "بوك",
+		price: "1.5$",
+	},
 ];
 export const extra = [
 	{
@@ -103,11 +108,6 @@ export const extra = [
 	},
 ];
 export const sweets = [
-	{
-		id: 1,
-		name: "بوك",
-		price: "1.5$",
-	},
 	{
 		id: 2,
 		name: "بوك و عسل",
