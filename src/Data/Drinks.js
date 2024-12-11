@@ -121,7 +121,7 @@ export const cold = [
 			},
 			{
 				name: "Bottle",
-				price: "5.0$",
+				price: "6.0$",
 			},
 		],
 	},
