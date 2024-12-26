@@ -20,6 +20,7 @@ export const Cold = () => {
 							<h1></h1>
 						</td>
 						<td className='sizes'>
+							<span>Small</span>
 							<span>Medium</span>
 							<span>Large</span>
 							<span>Bottle</span>
