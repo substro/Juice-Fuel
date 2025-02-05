@@ -45,5 +45,5 @@ export const flavours = [
 		name: 'Kinder ',
 	},
 ]
-export const prices = [{ medium: '150 000 L.L.' }, { Large: '200 000 L.L.' }, { one: '10$' }]
+export const prices = [{ medium: '150 000 L.L.' }, { Large: '200 000 L.L.' }, { one: '12$' }]
 
