@@ -77,7 +77,7 @@ export const saj = [
 	{
 		id: 15,
 		name: "حرحورة",
-		price: "1.5$",
+		price: "2.0$",
 	},
 	{
 		id: 16,
