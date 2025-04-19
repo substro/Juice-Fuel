@@ -67,7 +67,7 @@ export const crepes = [
 	},
 	{
 		name: "Fettuccine",
-		price: "5.0$",
+		price: "6.0$",
 	},
 	{
 		name: "Dark/White chocolate",
@@ -93,7 +93,7 @@ export const crepes = [
 export const waffles = [
 	{
 		name: "Chocolate & Fruits",
-		price: "5.0$",
+		price: "6.0$",
 	},
 ];
 export const qashta = [
